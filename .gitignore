@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.quarto/
+_site/
+site/_site/
+coverage/
+*.log
+integration/ppw/generated/*.json

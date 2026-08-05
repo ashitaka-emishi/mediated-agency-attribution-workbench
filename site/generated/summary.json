@@ -1,0 +1,102 @@
+{
+  "projectId": "mediated-agency-attribution-workbench",
+  "generatedAt": "2026-08-05T22:35:52.370Z",
+  "cases": [
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "title": "Institutional Self-Preservation Through Sacrificial Escalation",
+      "status": "scaffold",
+      "reviewStatus": "draft",
+      "counts": {
+        "sources": 2,
+        "passages": 2,
+        "observations": 2,
+        "actors": 5,
+        "events": 1,
+        "mechanisms": 5,
+        "media": 3,
+        "hypotheses": 5,
+        "findings": 1,
+        "reviews": 1
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-human-rhetorical-action",
+      "title": "Human rhetorical agency",
+      "status": "plausible",
+      "agencyType": "intentional",
+      "explanatoryNecessity": "necessary",
+      "empiricalStatus": "partially-discriminated",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-psychological-feedback",
+      "title": "Psychological commitment escalation",
+      "status": "proposed",
+      "agencyType": "systemic",
+      "explanatoryNecessity": "contributory",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-institutional-agency",
+      "title": "Institutional continuity and self-preservation",
+      "status": "proposed",
+      "agencyType": "institutional",
+      "explanatoryNecessity": "unknown",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-symbolic-order",
+      "title": "Sacralized symbolic-order mediation",
+      "status": "proposed",
+      "agencyType": "symbolic",
+      "explanatoryNecessity": "unknown",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "tradition-contested",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-layered-spiritual",
+      "title": "Layered hostile spiritual mediation",
+      "status": "underdetermined",
+      "agencyType": "layered",
+      "explanatoryNecessity": "compatible",
+      "empiricalStatus": "not-empirically-testable",
+      "theologicalStatus": "metaphysical-proposal",
+      "reviewStatus": "draft",
+      "humanReviewRequired": true
+    }
+  ],
+  "traceability": [
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "findingId": "finding-pilot-attribution",
+      "status": "draft",
+      "reviewStatus": "draft",
+      "hypothesisIds": [
+        "hyp-human-rhetorical-action",
+        "hyp-psychological-feedback",
+        "hyp-institutional-agency",
+        "hyp-symbolic-order",
+        "hyp-layered-spiritual"
+      ],
+      "humanReviewIds": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/medium.schema.json",
+  "title": "Media",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "mediumId",
+      "caseId",
+      "name",
+      "mediumClass",
+      "description"
+    ],
+    "properties": {
+      "mediumId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "mediumClass": {
+        "type": "string",
+        "enum": [
+          "human-body",
+          "office",
+          "law",
+          "procedure",
+          "institution",
+          "ritual",
+          "symbol",
+          "text",
+          "technology",
+          "building",
+          "monument",
+          "weapon",
+          "economic-incentive",
+          "communication-network"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "actorIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

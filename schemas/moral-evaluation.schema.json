@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/moral-evaluation.schema.json",
+  "title": "Moral Evaluations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "evaluationId",
+      "caseId",
+      "targetRef",
+      "framework",
+      "criteria",
+      "assessment",
+      "causalInferenceProhibited",
+      "createdBy",
+      "reviewStatus"
+    ],
+    "properties": {
+      "evaluationId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "targetRef": {
+        "type": "string"
+      },
+      "framework": {
+        "type": "string"
+      },
+      "criteria": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "assessment": {
+        "type": "string"
+      },
+      "causalInferenceProhibited": {
+        "type": "boolean"
+      },
+      "createdBy": {
+        "type": "string",
+        "enum": [
+          "human",
+          "ai",
+          "script",
+          "imported"
+        ]
+      },
+      "reviewStatus": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

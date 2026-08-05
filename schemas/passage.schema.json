@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/passage.schema.json",
+  "title": "Passages",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "passageId",
+      "sourceId",
+      "locator",
+      "textStatus"
+    ],
+    "properties": {
+      "passageId": {
+        "type": "string"
+      },
+      "sourceId": {
+        "type": "string"
+      },
+      "locator": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "textStatus": {
+        "type": "string",
+        "enum": [
+          "verified",
+          "transcribed",
+          "paraphrase",
+          "pointer-only"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

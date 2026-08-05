@@ -1,0 +1,80 @@
+{
+  "editor.formatOnSave": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/src-py"
+  ],
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/maaw.project.json"
+      ],
+      "url": "./schemas/project-manifest.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/case.json"
+      ],
+      "url": "./schemas/case.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/sources.json"
+      ],
+      "url": "./schemas/source.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/passages.json"
+      ],
+      "url": "./schemas/passage.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/observations.json"
+      ],
+      "url": "./schemas/observation.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/actors.json"
+      ],
+      "url": "./schemas/actor.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/events.json"
+      ],
+      "url": "./schemas/event.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/mechanisms.json"
+      ],
+      "url": "./schemas/mechanism.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/media.json"
+      ],
+      "url": "./schemas/medium.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/hypotheses.json"
+      ],
+      "url": "./schemas/attribution-hypothesis.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/argument-graph.json"
+      ],
+      "url": "./schemas/argument-graph.schema.json"
+    },
+    {
+      "fileMatch": [
+        "/data/cases/*/findings.json"
+      ],
+      "url": "./schemas/finding.schema.json"
+    }
+  ]
+}

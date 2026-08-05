@@ -1,0 +1,68 @@
+{
+  "$schema": "./schemas/project-manifest.schema.json",
+  "schemaVersion": "0.1.0",
+  "projectId": "mediated-agency-attribution-workbench",
+  "projectName": "Mediated Agency Attribution Workbench",
+  "abbreviation": "MAAW",
+  "status": "research-scaffold",
+  "defaultBranch": "master",
+  "runtime": {
+    "node": ">=20",
+    "python": ">=3.11",
+    "publication": "Quarto"
+  },
+  "canonicalPaths": {
+    "schemas": "schemas",
+    "ontology": "data/ontology",
+    "traditions": "data/traditions",
+    "cases": "data/cases",
+    "generated": "data/generated",
+    "ppwIntegration": "integration/ppw",
+    "site": "site"
+  },
+  "commands": {
+    "validate": "npm run validate",
+    "test": "npm test",
+    "build": "npm run build",
+    "summary": "npm run summary",
+    "newCase": "npm run case:new -- <case-id> \"<title>\"",
+    "ppwExport": "npm run export:ppw",
+    "site": "npm run site"
+  },
+  "epistemicPrinciples": [
+    "observations-before-attributions",
+    "agent-agency-mechanism-medium-manifestation-distinction",
+    "causal-moral-separation",
+    "explanatory-restraint",
+    "non-reductive-mediation",
+    "underdetermination-is-valid",
+    "traceability-required",
+    "human-command-authority"
+  ],
+  "humanGates": [
+    "ontology-change",
+    "codebook-change",
+    "spiritual-attribution-approval",
+    "finding-promotion",
+    "ppw-export",
+    "publication"
+  ],
+  "integrations": [
+    {
+      "system": "political-pathology-workbench",
+      "role": "parent-coordination-and-promoted-findings"
+    },
+    {
+      "system": "lincoln-metaphor-analysis",
+      "role": "deep-case-evidence-source"
+    },
+    {
+      "system": "sacrifice-law-workbench",
+      "role": "comparative-evidence-source"
+    },
+    {
+      "system": "john-brown-metaphor-analysis",
+      "role": "deep-case-evidence-source"
+    }
+  ]
+}

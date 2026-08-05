@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mediated-agency"
+version = "0.1.0"
+description = "Analytical helpers for the Mediated Agency Attribution Workbench"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+package-dir = {"" = "src-py"}
+
+[tool.setuptools.packages.find]
+where = ["src-py"]

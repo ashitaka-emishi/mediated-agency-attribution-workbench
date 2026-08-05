@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.quarto": true,
+      "site/_site": true
+    },
+    "editor.formatOnSave": true,
+    "json.format.keepLines": true,
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}/src-py"
+    ],
+    "terminal.integrated.cwd": "${workspaceFolder}"
+  },
+  "extensions": {
+    "recommendations": [
+      "quarto.quarto",
+      "ms-python.python",
+      "redhat.vscode-yaml",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+}

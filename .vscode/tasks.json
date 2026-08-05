@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MAAW: Validate",
+      "type": "shell",
+      "command": "npm run validate",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "MAAW: Test",
+      "type": "shell",
+      "command": "npm test && python3 -m unittest discover -s test-py -v",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "MAAW: Build",
+      "type": "shell",
+      "command": "npm run build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "MAAW: Summary",
+      "type": "shell",
+      "command": "npm run summary",
+      "problemMatcher": []
+    },
+    {
+      "label": "MAAW: Preview Site",
+      "type": "shell",
+      "command": "npm run site:preview",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "MAAW: Export PPW Module",
+      "type": "shell",
+      "command": "npm run export:ppw",
+      "problemMatcher": []
+    }
+  ]
+}

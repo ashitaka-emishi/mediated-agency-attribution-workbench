@@ -1,0 +1,83 @@
+[
+  {
+    "id": "heiser-unseen-realm",
+    "type": "book",
+    "title": "The Unseen Realm",
+    "author": [
+      {
+        "family": "Heiser",
+        "given": "Michael S."
+      }
+    ]
+  },
+  {
+    "id": "wink-engaging-powers",
+    "type": "book",
+    "title": "Engaging the Powers",
+    "author": [
+      {
+        "family": "Wink",
+        "given": "Walter"
+      }
+    ]
+  },
+  {
+    "id": "berkhof-christ-powers",
+    "type": "book",
+    "title": "Christ and the Powers",
+    "author": [
+      {
+        "family": "Berkhof",
+        "given": "Hendrik"
+      }
+    ]
+  },
+  {
+    "id": "stringfellow-ethic",
+    "type": "book",
+    "title": "An Ethic for Christians and Other Aliens in a Strange Land",
+    "author": [
+      {
+        "family": "Stringfellow",
+        "given": "William"
+      }
+    ]
+  },
+  {
+    "id": "ellul-new-demons",
+    "type": "book",
+    "title": "The New Demons",
+    "author": [
+      {
+        "family": "Ellul",
+        "given": "Jacques"
+      }
+    ]
+  },
+  {
+    "id": "bradnick-evil-spirits",
+    "type": "book",
+    "title": "Evil, Spirits, and Possession",
+    "author": [
+      {
+        "family": "Bradnick",
+        "given": "David L."
+      }
+    ]
+  },
+  {
+    "id": "list-pettit-group-agency",
+    "type": "book",
+    "title": "Group Agency",
+    "author": [
+      {
+        "family": "List",
+        "given": "Christian"
+      },
+      {
+        "family": "Pettit",
+        "given": "Philip"
+      }
+    ]
+  }
+]

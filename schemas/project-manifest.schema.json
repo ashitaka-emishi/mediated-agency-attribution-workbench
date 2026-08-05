@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/project-manifest.schema.json",
+  "title": "MAAW Project Manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "projectId",
+    "projectName",
+    "status",
+    "canonicalPaths",
+    "commands",
+    "epistemicPrinciples",
+    "humanGates"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "type": "string"
+    },
+    "projectId": {
+      "type": "string"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "abbreviation": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "defaultBranch": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "object"
+    },
+    "canonicalPaths": {
+      "type": "object"
+    },
+    "commands": {
+      "type": "object"
+    },
+    "epistemicPrinciples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "humanGates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "integrations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": false
+}

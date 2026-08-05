@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/observation.schema.json",
+  "title": "Observations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "observationId",
+      "caseId",
+      "observation",
+      "derivedFrom",
+      "createdBy",
+      "reviewStatus"
+    ],
+    "properties": {
+      "observationId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "observation": {
+        "type": "string"
+      },
+      "derivedFrom": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "observationType": {
+        "type": "string",
+        "enum": [
+          "textual",
+          "historical",
+          "behavioral",
+          "institutional",
+          "symbolic",
+          "material",
+          "phenomenological",
+          "comparative"
+        ]
+      },
+      "createdBy": {
+        "type": "string",
+        "enum": [
+          "human",
+          "ai",
+          "script",
+          "imported"
+        ]
+      },
+      "reviewStatus": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

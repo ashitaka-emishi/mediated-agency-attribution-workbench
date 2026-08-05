@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/argument-graph.schema.json",
+  "title": "Argument Graph",
+  "type": "object",
+  "required": [
+    "caseId",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "caseId": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "nodeId",
+          "nodeType",
+          "text"
+        ],
+        "properties": {
+          "nodeId": {
+            "type": "string"
+          },
+          "nodeType": {
+            "type": "string",
+            "enum": [
+              "observation",
+              "claim",
+              "hypothesis",
+              "support",
+              "objection",
+              "assumption",
+              "defeater",
+              "falsifier",
+              "finding"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "recordRef": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "edgeId",
+          "from",
+          "to",
+          "relation"
+        ],
+        "properties": {
+          "edgeId": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "supports",
+              "contradicts",
+              "qualifies",
+              "assumes",
+              "defeats",
+              "falsifies",
+              "explains",
+              "alternative-to"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

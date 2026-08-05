@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Validate MAAW",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src-js/cli/validate.js",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Generate MAAW indexes",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src-js/cli/generate-indexes.js",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Python hypothesis comparison",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "mediated_agency.analysis.compare_hypotheses",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src-py"
+      },
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

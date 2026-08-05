@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/case.schema.json",
+  "title": "MAAW Case",
+  "type": "object",
+  "required": [
+    "caseId",
+    "title",
+    "researchQuestion",
+    "status",
+    "scope",
+    "createdBy",
+    "reviewStatus",
+    "publicationStatus"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "caseId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "researchQuestion": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "scaffold",
+        "active",
+        "review",
+        "closed",
+        "archived"
+      ]
+    },
+    "scope": {
+      "type": "string"
+    },
+    "timePeriod": {
+      "type": "object"
+    },
+    "geography": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "traditionLensIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "createdBy": {
+      "type": "string",
+      "enum": [
+        "human",
+        "ai",
+        "script",
+        "imported"
+      ]
+    },
+    "reviewStatus": {
+      "type": "string"
+    },
+    "publicationStatus": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

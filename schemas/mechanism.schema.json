@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/mechanism.schema.json",
+  "title": "Mechanisms",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "mechanismId",
+      "caseId",
+      "name",
+      "mechanismClass",
+      "description"
+    ],
+    "properties": {
+      "mechanismId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "mechanismClass": {
+        "type": "string",
+        "enum": [
+          "psychological",
+          "social",
+          "institutional",
+          "symbolic",
+          "technical",
+          "ritual",
+          "economic",
+          "political",
+          "spiritual-proposed"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "observableIndicators": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "boundaryConditions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

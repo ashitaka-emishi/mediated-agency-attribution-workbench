@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/review.schema.json",
+  "title": "Reviews",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "reviewId",
+      "caseId",
+      "targetRef",
+      "reviewerType",
+      "decision",
+      "rationale",
+      "date"
+    ],
+    "properties": {
+      "reviewId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "targetRef": {
+        "type": "string"
+      },
+      "reviewer": {
+        "type": "string"
+      },
+      "reviewerType": {
+        "type": "string",
+        "enum": [
+          "human",
+          "model",
+          "script"
+        ]
+      },
+      "decision": {
+        "type": "string",
+        "enum": [
+          "pending",
+          "accept",
+          "accept-with-revision",
+          "revise",
+          "reject",
+          "abstain"
+        ]
+      },
+      "rationale": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "epistemicConcerns": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

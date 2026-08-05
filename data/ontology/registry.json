@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/ontology-registry.schema.json",
+  "schemaVersion": "0.1.0",
+  "classes": [
+    {
+      "classId": "human-person",
+      "label": "Human person",
+      "definition": "An embodied human subject capable of intention, action, responsibility, and response."
+    },
+    {
+      "classId": "psychological-pattern",
+      "label": "Psychological pattern",
+      "definition": "A recurrent cognitive, affective, or behavioral process that shapes action without being presumed to be a separate person."
+    },
+    {
+      "classId": "collective-actor",
+      "label": "Collective actor",
+      "definition": "A coordinated group with shared procedures, commitments, or decision capacities."
+    },
+    {
+      "classId": "institution",
+      "label": "Institution",
+      "definition": "A durable arrangement of offices, rules, practices, resources, and identity that persists beyond individual members."
+    },
+    {
+      "classId": "symbolic-order",
+      "label": "Symbolic order",
+      "definition": "A structured field of meanings, narratives, categories, images, and sacred valuations."
+    },
+    {
+      "classId": "technical-system",
+      "label": "Technical system",
+      "definition": "An interconnected material and procedural system whose constraints shape available action."
+    },
+    {
+      "classId": "emergent-pattern",
+      "label": "Emergent pattern",
+      "definition": "A stable higher-order pattern arising from interactions among components and possessing proposed causal relevance."
+    },
+    {
+      "classId": "nonhuman-spiritual-agent",
+      "label": "Nonhuman spiritual agent",
+      "definition": "A personal or quasi-personal nonhuman intelligence proposed by a theological or metaphysical tradition."
+    },
+    {
+      "classId": "material-object",
+      "label": "Material object",
+      "definition": "A physical object that may mediate, constrain, symbolize, or preserve agency without thereby being an agent."
+    },
+    {
+      "classId": "ritual-process",
+      "label": "Ritual process",
+      "definition": "A repeated formal practice that coordinates bodies, symbols, roles, memory, and obligation."
+    }
+  ],
+  "relations": [
+    {
+      "relationId": "acts-through",
+      "from": "agent",
+      "to": "medium"
+    },
+    {
+      "relationId": "constrains",
+      "from": "structure",
+      "to": "agent"
+    },
+    {
+      "relationId": "embodies",
+      "from": "medium",
+      "to": "pattern"
+    },
+    {
+      "relationId": "manifests-as",
+      "from": "agency",
+      "to": "manifestation"
+    },
+    {
+      "relationId": "emerges-from",
+      "from": "higher-order-pattern",
+      "to": "components"
+    },
+    {
+      "relationId": "reinforces",
+      "from": "mechanism",
+      "to": "pattern"
+    },
+    {
+      "relationId": "resists",
+      "from": "agent",
+      "to": "agent-or-structure"
+    },
+    {
+      "relationId": "interpreted-by",
+      "from": "event",
+      "to": "tradition-lens"
+    }
+  ],
+  "agencyCriteria": [
+    {
+      "criterionId": "identity",
+      "question": "What exactly is alleged to be acting, and how is it distinguished from members, instruments, and effects?"
+    },
+    {
+      "criterionId": "persistence",
+      "question": "How does the alleged agent remain identifiable through time and turnover?"
+    },
+    {
+      "criterionId": "directionality",
+      "question": "Does the pattern repeatedly move toward an identifiable end?"
+    },
+    {
+      "criterionId": "selectivity",
+      "question": "Does it select among alternatives or merely produce regular effects?"
+    },
+    {
+      "criterionId": "responsiveness",
+      "question": "Does it adapt when resisted or when conditions change?"
+    },
+    {
+      "criterionId": "mechanism",
+      "question": "Through what process does it produce the observed effect?"
+    },
+    {
+      "criterionId": "medium",
+      "question": "Through what persons, symbols, procedures, institutions, or technologies does it act?"
+    },
+    {
+      "criterionId": "counterfactual",
+      "question": "Would the event probably have occurred without the proposed agent?"
+    },
+    {
+      "criterionId": "necessity",
+      "question": "Is the attribution necessary, contributory, compatible, unnecessary, or unknown?"
+    },
+    {
+      "criterionId": "independent-evidence",
+      "question": "Is there evidence for the proposed agent apart from the outcome it supposedly explains?"
+    },
+    {
+      "criterionId": "alternatives",
+      "question": "Which less demanding and rival explanations have been assessed?"
+    },
+    {
+      "criterionId": "falsifiability",
+      "question": "What evidence would materially weaken or overturn the attribution?"
+    }
+  ],
+  "notes": "Biblical terms such as angel, demon, principality, power, ruler, and authority are not mapped directly to these classes at scaffold stage."
+}

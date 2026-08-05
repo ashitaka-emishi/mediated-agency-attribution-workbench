@@ -1,0 +1,27 @@
+[
+  {
+    "findingId": "finding-pilot-attribution",
+    "caseId": "institutional-sacrificial-escalation",
+    "statement": "The pilot directly supports human rhetorical action and permits psychological, symbolic, and institutional hypotheses for testing; it does not independently discriminate a nonhuman spiritual agent.",
+    "hypothesisIds": [
+      "hyp-human-rhetorical-action",
+      "hyp-psychological-feedback",
+      "hyp-institutional-agency",
+      "hyp-symbolic-order",
+      "hyp-layered-spiritual"
+    ],
+    "status": "draft",
+    "empiricalConclusion": "Human rhetorical agency is directly evidenced. Higher-level collective and institutional explanations remain provisional pending broader records and comparative evidence.",
+    "theologicalConclusion": "A spiritual interpretation may be coherent within specified traditions but is currently underdetermined and unnecessary to explain the pilot observation.",
+    "uncertainties": [
+      "the pilot includes only a narrow textual anchor",
+      "institutional persistence has not been demonstrated from administrative records",
+      "psychological audience effects have not been independently measured",
+      "no case-specific evidence discriminates external spiritual agency"
+    ],
+    "humanReviewIds": [],
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "publicationStatus": "private-note"
+  }
+]

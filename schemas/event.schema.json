@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/event.schema.json",
+  "title": "Events",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "eventId",
+      "caseId",
+      "label",
+      "description",
+      "actorIds",
+      "derivedFrom"
+    ],
+    "properties": {
+      "eventId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "label": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "sequence": {
+        "type": "integer"
+      },
+      "description": {
+        "type": "string"
+      },
+      "actorIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "mechanismIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "mediumIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "derivedFrom": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "outcomes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

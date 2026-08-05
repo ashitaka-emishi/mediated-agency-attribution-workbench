@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/common.schema.json",
+  "title": "MAAW Common Definitions",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "createdBy": {
+      "type": "string",
+      "enum": [
+        "human",
+        "ai",
+        "script",
+        "imported"
+      ]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "source-review",
+        "evidence-review",
+        "argument-review",
+        "human-reviewed",
+        "approved",
+        "rejected"
+      ]
+    },
+    "publicationStatus": {
+      "type": "string",
+      "enum": [
+        "private-note",
+        "draft",
+        "internal-review",
+        "public-preview",
+        "published",
+        "withdrawn"
+      ]
+    },
+    "attributionStatus": {
+      "type": "string",
+      "enum": [
+        "proposed",
+        "plausible",
+        "supported",
+        "strongly-supported",
+        "compatible-but-unnecessary",
+        "underdetermined",
+        "weakly-supported",
+        "contradicted",
+        "category-error",
+        "not-currently-testable"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/ontology-registry.schema.json",
+  "title": "Ontology Registry",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "classes",
+    "relations",
+    "agencyCriteria"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "classes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "agencyCriteria": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

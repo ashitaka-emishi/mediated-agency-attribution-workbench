@@ -1,0 +1,25 @@
+{
+  "name": "mediated-agency-attribution-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Traceable workbench for disciplined multilevel agency attribution.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node src-js/cli/validate.js",
+    "generate": "node src-js/cli/generate-indexes.js",
+    "site-data": "node src-js/cli/generate-site-data.js",
+    "summary": "node src-js/cli/summary.js",
+    "case:new": "node src-js/cli/new-case.js",
+    "export:ppw": "node src-js/cli/export-ppw.js",
+    "freshness:generated": "node src-js/cli/check-generated-freshness.js",
+    "test": "node --test tests/*.test.js",
+    "test:py": "python3 -m unittest discover -s test-py -v",
+    "build": "npm run validate && npm test && npm run generate && npm run site-data",
+    "site": "quarto render site",
+    "site:preview": "quarto preview site"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

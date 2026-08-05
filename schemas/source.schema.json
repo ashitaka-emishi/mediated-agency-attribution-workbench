@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/source.schema.json",
+  "title": "Sources",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "sourceId",
+      "title",
+      "sourceType",
+      "rightsStatus",
+      "provenanceStatus"
+    ],
+    "properties": {
+      "sourceId": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "creator": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "sourceType": {
+        "type": "string",
+        "enum": [
+          "primary-text",
+          "archival-record",
+          "scripture",
+          "second-temple-text",
+          "scholarship",
+          "testimony",
+          "dataset",
+          "artifact",
+          "other"
+        ]
+      },
+      "uri": {
+        "type": "string"
+      },
+      "repository": {
+        "type": "string"
+      },
+      "rightsStatus": {
+        "type": "string",
+        "enum": [
+          "open",
+          "public-domain",
+          "fair-use",
+          "restricted",
+          "unknown"
+        ]
+      },
+      "provenanceStatus": {
+        "type": "string",
+        "enum": [
+          "full",
+          "partial",
+          "undocumented"
+        ]
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

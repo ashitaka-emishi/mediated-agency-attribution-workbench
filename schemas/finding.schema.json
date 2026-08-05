@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/finding.schema.json",
+  "title": "Findings",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "findingId",
+      "caseId",
+      "statement",
+      "hypothesisIds",
+      "status",
+      "empiricalConclusion",
+      "theologicalConclusion",
+      "uncertainties",
+      "createdBy",
+      "reviewStatus",
+      "publicationStatus"
+    ],
+    "properties": {
+      "findingId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "statement": {
+        "type": "string"
+      },
+      "hypothesisIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "draft",
+          "reviewed",
+          "promoted",
+          "blocked",
+          "withdrawn"
+        ]
+      },
+      "empiricalConclusion": {
+        "type": "string"
+      },
+      "theologicalConclusion": {
+        "type": "string"
+      },
+      "uncertainties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "humanReviewIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "createdBy": {
+        "type": "string",
+        "enum": [
+          "human",
+          "ai",
+          "script",
+          "imported"
+        ]
+      },
+      "reviewStatus": {
+        "type": "string"
+      },
+      "publicationStatus": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

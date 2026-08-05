@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-08-05",
+  "jsonParseErrors": [],
+  "checks": [
+    {
+      "command": "node src-js/cli/validate.js",
+      "returncode": 0,
+      "stdout": "Validated 1 case(s): 0 error(s), 0 warning(s).",
+      "stderr_tail": ""
+    },
+    {
+      "command": "node --test tests/rules.test.js tests/indexes.test.js",
+      "returncode": 0,
+      "stdout": "TAP version 13\n# Subtest: indexes preserve case and hypothesis identifiers\nok 1 - indexes preserve case and hypothesis identifiers\n  ---\n  duration_ms: 3.261041\n  type: 'test'\n  ...\n# Subtest: pilot case passes epistemic validation\nok 2 - pilot case passes epistemic validation\n  ---\n  duration_ms: 4.109844\n  type: 'test'\n  ...\n# Subtest: observation records cannot contain causal spiritual attribution\nok 3 - observation records cannot contain causal spiritual attribution\n  ---\n  duration_ms: 2.012684\n  type: 'test'\n  ...\n# Subtest: spiritual attribution requires lower-level assessment and human gate\nok 4 - spiritual attribution requires lower-level assessment and human gate\n  ---\n  duration_ms: 0.667292\n  type: 'test'\n  ...\n# Subtest: reviewed finding requires accepted human review\nok 5 - reviewed finding requires accepted human review\n  ---\n  duration_ms: 0.559702\n  type: 'test'\n  ...\n1..5\n# tests 5\n# suites 0\n# pass 5\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 69.247555",
+      "stderr_tail": ""
+    },
+    {
+      "command": "python3 -m unittest discover -s test-py -v",
+      "returncode": 0,
+      "stdout": "",
+      "stderr_tail": "fact_tool/rpc/client.py\", line 150, in call\nartifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.\ntest_all_profiles_have_falsifiers (test_profiles.HypothesisProfileTests.test_all_profiles_have_falsifiers) ... ok\ntest_pilot_profiles_include_spiritual_human_gate (test_profiles.HypothesisProfileTests.test_pilot_profiles_include_spiritual_human_gate) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK"
+    },
+    {
+      "command": "node src-js/cli/generate-indexes.js",
+      "returncode": 0,
+      "stdout": "Generated indexes for 1 case(s).",
+      "stderr_tail": ""
+    },
+    {
+      "command": "node src-js/cli/generate-site-data.js",
+      "returncode": 0,
+      "stdout": "Wrote site/generated/summary.json.",
+      "stderr_tail": ""
+    },
+    {
+      "command": "node src-js/cli/check-generated-freshness.js",
+      "returncode": 0,
+      "stdout": "Generated indexes are fresh.",
+      "stderr_tail": ""
+    }
+  ]
+}

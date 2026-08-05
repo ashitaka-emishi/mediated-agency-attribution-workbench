@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-08-05T22:35:52.183Z",
+  "records": [
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-human-rhetorical-action",
+      "title": "Human rhetorical agency",
+      "status": "plausible",
+      "agencyType": "intentional",
+      "explanatoryNecessity": "necessary",
+      "empiricalStatus": "partially-discriminated",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-psychological-feedback",
+      "title": "Psychological commitment escalation",
+      "status": "proposed",
+      "agencyType": "systemic",
+      "explanatoryNecessity": "contributory",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-institutional-agency",
+      "title": "Institutional continuity and self-preservation",
+      "status": "proposed",
+      "agencyType": "institutional",
+      "explanatoryNecessity": "unknown",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "not-applicable",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-symbolic-order",
+      "title": "Sacralized symbolic-order mediation",
+      "status": "proposed",
+      "agencyType": "symbolic",
+      "explanatoryNecessity": "unknown",
+      "empiricalStatus": "underdetermined",
+      "theologicalStatus": "tradition-contested",
+      "reviewStatus": "draft",
+      "humanReviewRequired": false
+    },
+    {
+      "caseId": "institutional-sacrificial-escalation",
+      "hypothesisId": "hyp-layered-spiritual",
+      "title": "Layered hostile spiritual mediation",
+      "status": "underdetermined",
+      "agencyType": "layered",
+      "explanatoryNecessity": "compatible",
+      "empiricalStatus": "not-empirically-testable",
+      "theologicalStatus": "metaphysical-proposal",
+      "reviewStatus": "draft",
+      "humanReviewRequired": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/actor.schema.json",
+  "title": "Actors",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "actorId",
+      "caseId",
+      "name",
+      "ontologicalClass"
+    ],
+    "properties": {
+      "actorId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "ontologicalClass": {
+        "type": "string",
+        "enum": [
+          "human-person",
+          "psychological-pattern",
+          "collective-actor",
+          "institution",
+          "symbolic-order",
+          "technical-system",
+          "emergent-pattern",
+          "nonhuman-spiritual-agent",
+          "material-object",
+          "ritual-process"
+        ]
+      },
+      "description": {
+        "type": "string"
+      },
+      "identityCriteria": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "persistenceCriteria": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "observed",
+          "proposed",
+          "analytical-construct",
+          "tradition-claim"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "quarto.quarto",
+    "ms-python.python",
+    "redhat.vscode-yaml",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

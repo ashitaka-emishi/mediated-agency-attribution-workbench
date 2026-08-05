@@ -1,0 +1,39 @@
+name: Research data review
+description: Review a source, observation, hypothesis, argument, or finding.
+title: "[Research Review] "
+labels: ["research-review"]
+body:
+  - type: dropdown
+    id: object
+    attributes:
+      label: Object type
+      options:
+        - source
+        - passage
+        - observation
+        - actor
+        - event
+        - mechanism
+        - medium
+        - hypothesis
+        - argument graph
+        - finding
+        - moral evaluation
+    validations:
+      required: true
+  - type: input
+    id: record
+    attributes:
+      label: Record ID
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or concern
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Missing alternatives or defeaters

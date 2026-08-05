@@ -1,0 +1,19 @@
+---
+title: "Architecture"
+---
+
+```{mermaid}
+flowchart LR
+  S[Source] --> P[Passage]
+  P --> O[Observation]
+  O --> E[Event model]
+  E --> H[Attribution hypotheses]
+  H --> A[Argument graph]
+  A --> F[Finding]
+  F --> R[Human review]
+  R --> X[PPW export / publication]
+```
+
+Canonical records are human-edited JSON. Node.js validates and generates
+indexes. Python supports comparative analysis. Quarto publishes selected,
+reviewed derivatives.

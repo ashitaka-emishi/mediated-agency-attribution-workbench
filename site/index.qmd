@@ -1,0 +1,11 @@
+---
+title: "Mediated Agency Attribution Workbench"
+---
+
+MAAW is a traceable research environment for comparing claims about human,
+psychological, collective, institutional, symbolic, technical, emergent, and
+nonhuman spiritual agency.
+
+The workbench does not decide that a spiritual agent caused an event. It records
+observations, constructs rival hypotheses, exposes assumptions and evidence
+burdens, and prepares findings for human adjudication.

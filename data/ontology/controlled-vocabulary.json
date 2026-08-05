@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "0.1.0",
+  "attributionStatuses": [
+    "proposed",
+    "plausible",
+    "supported",
+    "strongly-supported",
+    "compatible-but-unnecessary",
+    "underdetermined",
+    "weakly-supported",
+    "contradicted",
+    "category-error",
+    "not-currently-testable"
+  ],
+  "explanatoryNecessity": [
+    "necessary",
+    "contributory",
+    "compatible",
+    "unnecessary",
+    "unknown"
+  ],
+  "empiricalStatuses": [
+    "discriminated",
+    "partially-discriminated",
+    "underdetermined",
+    "not-empirically-testable",
+    "contradicted"
+  ],
+  "theologicalStatuses": [
+    "not-applicable",
+    "tradition-coherent",
+    "tradition-contested",
+    "canonically-argued",
+    "metaphysical-proposal",
+    "unassessed"
+  ],
+  "reviewStatuses": [
+    "draft",
+    "source-review",
+    "evidence-review",
+    "argument-review",
+    "human-reviewed",
+    "approved",
+    "rejected"
+  ],
+  "publicationStatuses": [
+    "private-note",
+    "draft",
+    "internal-review",
+    "public-preview",
+    "published",
+    "withdrawn"
+  ]
+}

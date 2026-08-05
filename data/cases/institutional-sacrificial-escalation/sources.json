@@ -1,0 +1,23 @@
+[
+  {
+    "sourceId": "src-gettysburg-address",
+    "title": "Gettysburg Address",
+    "creator": "Abraham Lincoln",
+    "date": "1863-11-19",
+    "sourceType": "primary-text",
+    "uri": "https://www.loc.gov/resource/mal.4359400/",
+    "rightsStatus": "public-domain",
+    "provenanceStatus": "partial",
+    "notes": "Verify the transcription and manuscript witness during source review."
+  },
+  {
+    "sourceId": "src-methodological-pilot-note",
+    "title": "MAAW pilot-case methodological note",
+    "creator": "MAAW project",
+    "date": "2026-08-05",
+    "sourceType": "other",
+    "rightsStatus": "open",
+    "provenanceStatus": "full",
+    "notes": "Project-authored framing source."
+  }
+]

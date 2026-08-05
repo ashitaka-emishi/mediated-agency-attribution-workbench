@@ -1,0 +1,78 @@
+[
+  {
+    "actorId": "actor-lincoln",
+    "caseId": "institutional-sacrificial-escalation",
+    "name": "Abraham Lincoln as speaker",
+    "ontologicalClass": "human-person",
+    "description": "Identifiable human author and political officeholder.",
+    "identityCriteria": [
+      "historical person",
+      "speaker of the address"
+    ],
+    "persistenceCriteria": [
+      "biographical continuity"
+    ],
+    "status": "observed"
+  },
+  {
+    "actorId": "actor-union-state",
+    "caseId": "institutional-sacrificial-escalation",
+    "name": "United States government during the Civil War",
+    "ontologicalClass": "institution",
+    "description": "Durable offices, laws, military commands, fiscal systems, and public identity.",
+    "identityCriteria": [
+      "constitutional and legal continuity",
+      "institutional offices",
+      "command authority"
+    ],
+    "persistenceCriteria": [
+      "turnover-resistant legal and administrative continuity"
+    ],
+    "status": "analytical-construct"
+  },
+  {
+    "actorId": "actor-national-sacred-order",
+    "caseId": "institutional-sacrificial-escalation",
+    "name": "Sacralized national symbolic order",
+    "ontologicalClass": "symbolic-order",
+    "description": "Narratives and symbols construing the nation and its dead as bearing sacred obligation.",
+    "identityCriteria": [
+      "recurrent symbols",
+      "shared narrative",
+      "ritual repetition"
+    ],
+    "persistenceCriteria": [
+      "transmission through texts, ceremonies, institutions, and memory"
+    ],
+    "status": "analytical-construct"
+  },
+  {
+    "actorId": "actor-sacrificial-feedback",
+    "caseId": "institutional-sacrificial-escalation",
+    "name": "Sacrificial commitment feedback pattern",
+    "ontologicalClass": "psychological-pattern",
+    "description": "A proposed pattern in which prior cost increases resistance to reversal.",
+    "identityCriteria": [
+      "recurrent cost-justification relation"
+    ],
+    "persistenceCriteria": [
+      "reinforcement through grief, identity, and repetition"
+    ],
+    "status": "proposed"
+  },
+  {
+    "actorId": "actor-hostile-spiritual-power",
+    "caseId": "institutional-sacrificial-escalation",
+    "name": "Proposed hostile spiritual power",
+    "ontologicalClass": "nonhuman-spiritual-agent",
+    "description": "A theological hypothesis, not an observed historical actor in the pilot data.",
+    "identityCriteria": [
+      "must be supplied by a defined theological tradition",
+      "must not be inferred solely from destructive effects"
+    ],
+    "persistenceCriteria": [
+      "requires independent theological and case-specific argument"
+    ],
+    "status": "tradition-claim"
+  }
+]

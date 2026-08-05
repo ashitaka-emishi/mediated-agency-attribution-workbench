@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mediated Agency Attribution Workbench"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: method.qmd
+        text: Method
+      - href: pilot.qmd
+        text: Pilot
+      - href: architecture.qmd
+        text: Architecture
+
+format:
+  html:
+    toc: true
+    code-fold: true
+    theme: cosmo

@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/attribution-hypothesis.schema.json",
+  "title": "Attribution Hypotheses",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "hypothesisId",
+      "caseId",
+      "title",
+      "proposedAgentIds",
+      "agencyClaim",
+      "agencyType",
+      "mechanismIds",
+      "mediumIds",
+      "manifestations",
+      "evidenceSupport",
+      "alternativeHypothesisIds",
+      "assumptions",
+      "falsifiers",
+      "status",
+      "explanatoryNecessity",
+      "empiricalStatus",
+      "theologicalStatus",
+      "humanReviewRequired",
+      "createdBy",
+      "reviewStatus"
+    ],
+    "properties": {
+      "hypothesisId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "proposedAgentIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "agencyClaim": {
+        "type": "string"
+      },
+      "agencyType": {
+        "type": "string",
+        "enum": [
+          "intentional",
+          "collective-intentional",
+          "institutional",
+          "systemic",
+          "formal",
+          "final",
+          "symbolic",
+          "spiritual-proposed",
+          "layered"
+        ]
+      },
+      "mechanismIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "mediumIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "manifestations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "evidenceSupport": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "evidenceAgainst": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "alternativeHypothesisIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "assumptions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "falsifiers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "lowerLevelExplanationsAssessed": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "independentEvidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "status": {
+        "type": "string"
+      },
+      "explanatoryNecessity": {
+        "type": "string",
+        "enum": [
+          "necessary",
+          "contributory",
+          "compatible",
+          "unnecessary",
+          "unknown"
+        ]
+      },
+      "empiricalStatus": {
+        "type": "string",
+        "enum": [
+          "discriminated",
+          "partially-discriminated",
+          "underdetermined",
+          "not-empirically-testable",
+          "contradicted"
+        ]
+      },
+      "theologicalStatus": {
+        "type": "string",
+        "enum": [
+          "not-applicable",
+          "tradition-coherent",
+          "tradition-contested",
+          "canonically-argued",
+          "metaphysical-proposal",
+          "unassessed"
+        ]
+      },
+      "humanReviewRequired": {
+        "type": "boolean"
+      },
+      "createdBy": {
+        "type": "string",
+        "enum": [
+          "human",
+          "ai",
+          "script",
+          "imported"
+        ]
+      },
+      "reviewStatus": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}

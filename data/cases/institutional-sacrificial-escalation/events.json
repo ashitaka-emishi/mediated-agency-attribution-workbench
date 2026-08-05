@@ -1,0 +1,28 @@
+[
+  {
+    "eventId": "event-address-delivered",
+    "caseId": "institutional-sacrificial-escalation",
+    "label": "Gettysburg Address delivered",
+    "date": "1863-11-19",
+    "sequence": 1,
+    "description": "A public address interprets wartime death within an unfinished national task.",
+    "actorIds": [
+      "actor-lincoln",
+      "actor-union-state",
+      "actor-national-sacred-order"
+    ],
+    "mechanismIds": [
+      "mech-rhetorical-reframing"
+    ],
+    "mediumIds": [
+      "med-public-address",
+      "med-commemoration"
+    ],
+    "derivedFrom": [
+      "pass-gettysburg-dead-not-vain"
+    ],
+    "outcomes": [
+      "prior deaths are rhetorically linked to continuing obligation"
+    ]
+  }
+]
