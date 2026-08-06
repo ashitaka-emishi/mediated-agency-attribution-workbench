@@ -25,6 +25,8 @@ to show positive, negative, and category-error coding.
 Blinded reliability passes should use
 `docs/BLINDED_CODING_PACKET_TEMPLATE.md` before any coder output is compared or
 adjudicated.
+The initial documented exercise is recorded in
+`docs/reliability/initial-codebook-coding-passes.md`.
 
 ## Sequence
 
