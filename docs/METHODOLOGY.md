@@ -22,6 +22,10 @@ and interpretation, then gives agency-criteria coding rules for moving from
 observations to attribution hypotheses. Its examples use the 1 Kings 22 pilot
 to show positive, negative, and category-error coding.
 
+Blinded reliability passes should use
+`docs/BLINDED_CODING_PACKET_TEMPLATE.md` before any coder output is compared or
+adjudicated.
+
 ## Sequence
 
 1. Register sources and provenance.
@@ -32,7 +36,7 @@ to show positive, negative, and category-error coding.
 6. State alternatives and lower-level assessments.
 7. Build an argument graph.
 8. Separate textual, empirical, moral, and theological conclusions.
-9. Conduct human and model reliability review.
+9. Conduct human and model reliability review with blinded coding packets.
 10. Adjudicate and, when warranted, promote or export.
 
 ## Spiritual-attribution protocol
