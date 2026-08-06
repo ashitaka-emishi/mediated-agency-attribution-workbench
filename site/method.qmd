@@ -34,3 +34,6 @@ persistence, directionality, selectivity, responsiveness, counterfactual
 dependence, necessity, independent evidence, alternatives, and falsifiability
 are evaluated against rival hypotheses before less observable agents are
 invoked.
+
+The codebook examples use the 1 Kings 22 pilot to show positive, negative, and
+category-error coding without adding causal language to observation records.
