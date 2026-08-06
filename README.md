@@ -84,6 +84,8 @@ Source -> Passage -> Observation -> Event/Actor/Mechanism/Medium
 - `schemas/` - JSON Schema contracts
 - `docs/CODEBOOK.md` - core attribution category definitions
 - `docs/BLINDED_CODING_PACKET_TEMPLATE.md` - reviewer packet template
+- `docs/reliability/initial-codebook-coding-passes.md` - initial reliability
+  coding exercise and provisional adjudication notes
 - `data/ontology/` - ontology and controlled vocabulary
 - `data/traditions/` - interpretive lenses
 - `data/cases/` - canonical case records

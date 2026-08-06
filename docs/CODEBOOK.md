@@ -266,9 +266,10 @@ Use `underdetermined` when the evidence does not discriminate between live
 alternatives or when a proposed attribution lacks enough support for a stronger
 status. Underdetermination is a valid finding, not a failed analysis.
 
-Use `compatible-but-unnecessary` when an attribution is coherent within a
-tradition or reading but adds no necessary explanatory work beyond better
-supported alternatives.
+Use `compatible` in `explanatoryNecessity` when an attribution is coherent
+within a tradition or reading but adds no necessary explanatory work beyond
+better supported alternatives. Reserve `compatible-but-unnecessary` for
+attribution status fields where that status vocabulary is in use.
 
 Use `category-error` when a claim collapses categories in a way that invalidates
 the attribution, such as treating a manifestation as an agent, treating a moral
@@ -490,10 +491,12 @@ live alternatives. For example, court consultation may remain underdetermined
 if the current evidence shows a royal counsel setting but not enough to specify
 the independent agency of the court system.
 
-Use `compatible-but-unnecessary` when a proposed attribution is coherent but
-does not add necessary explanatory work. For example, a spiritual reading might
-be compatible with a tradition while remaining unnecessary to explain a
-strictly textual observation about Ahab's preference.
+Use `compatible` in `explanatoryNecessity` when a proposed attribution is
+coherent but does not add necessary explanatory work. For example, a spiritual
+reading might be compatible with a tradition while remaining unnecessary to
+explain a strictly textual observation about Ahab's preference. Reserve
+`compatible-but-unnecessary` for attribution status fields where that status
+vocabulary is in use.
 
 Use `category-error` when a claim collapses categories. For example, "the
 mouths of the prophets are the lying spirit" confuses medium and proposed
