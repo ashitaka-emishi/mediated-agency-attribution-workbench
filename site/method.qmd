@@ -4,12 +4,13 @@ title: "Method"
 
 ## Core distinction
 
-- **agent** — the entity to which action is attributed;
-- **agency** — the capacity exercised;
-- **mechanism** — the process producing an effect;
-- **medium** — that through which agency becomes effective;
-- **manifestation** — the observable result;
-- **interpretation** — the meaning assigned to that result.
+- **agent** — the proposed actor to which action, direction, or responsibility is attributed;
+- **agency claim** — the specific assertion about what the proposed agent does;
+- **cause** — an explanatory relation by which a factor contributes to an event or pattern;
+- **mechanism** — the process or pathway by which an attribution becomes effective;
+- **medium** — that through which agency or causation is mediated;
+- **manifestation** — the observable or textually represented result;
+- **interpretation** — the meaning assigned within a textual, theological, historical, or analytical frame.
 
 ## Paired restraint principles
 
@@ -18,3 +19,10 @@ less observable and more ontologically demanding agent.
 
 **Non-reductive mediation:** identifying a psychological, social, or
 institutional mechanism does not by itself prove spiritual mediation impossible.
+
+## Separation rules
+
+Textual observations, causal hypotheses, theological interpretation, and moral
+evaluation remain distinct. Spiritual attributions require human review and
+must not be inferred solely from harm, deception, severity, or resemblance to
+another passage.
