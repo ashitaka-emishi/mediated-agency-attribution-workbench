@@ -21,6 +21,10 @@ traditions, counter-readings, and chronological process events where relevant.
 Generate coding packets, compare human coders and model runs, classify
 disagreements, adjudicate, and revise the codebook.
 
+Use `docs/BLINDED_CODING_PACKET_TEMPLATE.md` to prevent preferred
+attributions, findings, and final interpretations from leaking into
+independent coding passes.
+
 ## Phase 4 — Cross-case testing
 
 Test the framework against clear group agents, rhetorical personification

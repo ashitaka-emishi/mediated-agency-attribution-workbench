@@ -83,6 +83,7 @@ Source -> Passage -> Observation -> Event/Actor/Mechanism/Medium
 - `maaw.project.json` - machine-readable charter
 - `schemas/` - JSON Schema contracts
 - `docs/CODEBOOK.md` - core attribution category definitions
+- `docs/BLINDED_CODING_PACKET_TEMPLATE.md` - reviewer packet template
 - `data/ontology/` - ontology and controlled vocabulary
 - `data/traditions/` - interpretive lenses
 - `data/cases/` - canonical case records
