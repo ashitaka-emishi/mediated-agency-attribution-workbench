@@ -11,6 +11,7 @@ const ARRAY_FILES = [
   "media.json",
   "hypotheses.json",
   "findings.json",
+  "reliability.json",
   "reviews.json",
   "moral-evaluations.json"
 ];

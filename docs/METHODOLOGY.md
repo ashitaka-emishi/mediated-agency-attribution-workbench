@@ -29,6 +29,8 @@ The initial documented exercise is recorded in
 `docs/reliability/initial-codebook-coding-passes.md`.
 The Epic 10 ontology and schema impact review is recorded in
 `docs/ONTOLOGY_SCHEMA_IMPACT_REVIEW.md`.
+Canonical reliability/adjudication records live in per-case `reliability.json`
+files and remain distinct from human review decisions in `reviews.json`.
 
 ## Sequence
 

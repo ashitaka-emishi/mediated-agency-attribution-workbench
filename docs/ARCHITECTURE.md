@@ -31,3 +31,8 @@ and publication.
 AI-generated content enters as `createdBy: ai` and `reviewStatus: draft`. It
 cannot cross spiritual-attribution, promotion, export, or publication gates
 without recorded human review.
+
+Reliability coding passes and provisional adjudication outcomes live in
+per-case `reliability.json` records. Review decisions live separately in
+`reviews.json`; reliability agreement does not itself approve findings,
+spiritual attributions, publication, export, or reviewed tags.

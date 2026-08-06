@@ -50,6 +50,7 @@ export function validateCaseBundle(bundle) {
     [bundle.media, "mediumId", "media"],
     [bundle.hypotheses, "hypothesisId", "hypotheses"],
     [bundle.findings, "findingId", "findings"],
+    [bundle.reliability, "reliabilityId", "reliability"],
     [bundle.reviews, "reviewId", "reviews"],
     [bundle.moralEvaluations, "evaluationId", "moral evaluations"]
   ];
@@ -245,6 +246,77 @@ export function validateCaseBundle(bundle) {
       issues.push(issue("warning", "causal-theological-collapse",
         "Empirical and theological conclusions should be independently stated",
         finding.findingId));
+    }
+  }
+
+  for (const reliability of bundle.reliability) {
+    const id = reliability.reliabilityId;
+    if (reliability.caseId !== caseId) {
+      issues.push(issue("error", "case-id-mismatch",
+        "Reliability record caseId does not match case", id));
+    }
+
+    for (const ref of reliability.sourcePacket?.evidenceShown ?? []) {
+      if (!evidenceRefs.has(ref)) {
+        issues.push(issue("error", "unresolved-reliability-evidence",
+          `Reliability evidence reference does not resolve: ${ref}`, id));
+      }
+    }
+
+    for (const output of reliability.coderOutputs ?? []) {
+      if (output.coderType === "model" &&
+          HUMAN_REVIEW_STATUSES.has(output.reviewStatus)) {
+        issues.push(issue("error", "model-output-human-reviewed",
+          "Model coder output cannot be marked as human-reviewed or approved", output.coderOutputId));
+      }
+
+      for (const proposed of output.proposedHypotheses ?? []) {
+        for (const ref of proposed.linkedHypothesisIds ?? []) {
+          if (!hypotheses.has(ref)) {
+            issues.push(issue("error", "unresolved-reliability-hypothesis",
+              `Reliability output references missing hypothesis ${ref}`, output.coderOutputId));
+          }
+        }
+      }
+    }
+
+    for (const outcome of reliability.adjudication?.outcomes ?? []) {
+      for (const ref of outcome.linkedHypothesisIds ?? []) {
+        if (!hypotheses.has(ref)) {
+          issues.push(issue("error", "unresolved-adjudication-hypothesis",
+            `Adjudication references missing hypothesis ${ref}`, id));
+        }
+      }
+    }
+
+    for (const ref of reliability.promotionGate?.acceptedHumanReviewIds ?? []) {
+      const review = reviews.get(ref);
+      if (!review) {
+        issues.push(issue("error", "unresolved-reliability-review",
+          `Reliability promotion gate references missing review ${ref}`, id));
+        continue;
+      }
+      if (review.reviewerType !== "human" ||
+          !["accept", "accept-with-revision"].includes(review.decision)) {
+        issues.push(issue("error", "reliability-human-review",
+          "Reliability promotion requires accepted human review", id));
+      }
+    }
+
+    const gate = reliability.promotionGate ?? {};
+    if (gate.promotesFinding === true ||
+        gate.approvesSpiritualAttribution === true ||
+        gate.approvesPublication === true ||
+        gate.createsReviewedTag === true) {
+      issues.push(issue("error", "reliability-promotion-gate",
+        "Reliability records cannot promote findings, approve spiritual attribution, publish, or create reviewed tags by themselves", id));
+    }
+
+    if (["ai", "imported"].includes(reliability.createdBy) &&
+        HUMAN_REVIEW_STATUSES.has(reliability.reviewStatus) &&
+        !(gate.acceptedHumanReviewIds?.length > 0)) {
+      issues.push(issue("error", "reliability-human-review",
+        "AI or imported reliability records require accepted human review before human-reviewed or approved status", id));
     }
   }
 

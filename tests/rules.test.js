@@ -50,3 +50,31 @@ test("reviewed finding requires accepted human review", () => {
   const issues = validateCaseBundle(clone);
   assert.ok(issues.some((item) => item.code === "finding-human-review"));
 });
+
+test("model reliability output cannot cross human review gates", () => {
+  const project = loadProject();
+  const [bundle] = loadAllCases(project.paths.cases);
+  const clone = structuredClone(bundle);
+  clone.reliability[0].coderOutputs[0].reviewStatus = "human-reviewed";
+  clone.reliability[0].promotionGate.promotesFinding = true;
+  clone.reliability[0].promotionGate.approvesSpiritualAttribution = true;
+  const codes = new Set(
+    validateCaseBundle(clone).map((item) => item.code)
+  );
+  assert.ok(codes.has("model-output-human-reviewed"));
+  assert.ok(codes.has("reliability-promotion-gate"));
+});
+
+test("reliability references must resolve to case records", () => {
+  const project = loadProject();
+  const [bundle] = loadAllCases(project.paths.cases);
+  const clone = structuredClone(bundle);
+  clone.reliability[0].sourcePacket.evidenceShown.push("obs-missing");
+  clone.reliability[0].coderOutputs[0].proposedHypotheses[0]
+    .linkedHypothesisIds = ["hyp-missing"];
+  const codes = new Set(
+    validateCaseBundle(clone).map((item) => item.code)
+  );
+  assert.ok(codes.has("unresolved-reliability-evidence"));
+  assert.ok(codes.has("unresolved-reliability-hypothesis"));
+});

@@ -12,6 +12,7 @@ test("indexes preserve case and hypothesis identifiers", () => {
     indexes.caseIndex[0].caseId,
     "1-kings-22-lying-spirit"
   );
+  assert.equal(indexes.caseIndex[0].counts.reliability, 1);
   assert.ok(
     indexes.hypothesisIndex.some(
       (item) => item.hypothesisId === "hyp-lying-spirit-mediation"

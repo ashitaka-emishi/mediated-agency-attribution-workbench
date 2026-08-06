@@ -1,0 +1,443 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mediated-agency-attribution-workbench.local/schemas/reliability.schema.json",
+  "title": "Reliability Records",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "reliabilityId",
+      "caseId",
+      "title",
+      "originIssue",
+      "createdBy",
+      "reviewStatus",
+      "date",
+      "run",
+      "sourcePacket",
+      "coderOutputs",
+      "comparison",
+      "adjudication",
+      "promotionGate"
+    ],
+    "properties": {
+      "reliabilityId": {
+        "type": "string"
+      },
+      "caseId": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "originIssue": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "string",
+        "enum": [
+          "human",
+          "ai",
+          "script",
+          "imported"
+        ]
+      },
+      "reviewStatus": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "run": {
+        "type": "object",
+        "required": [
+          "runId",
+          "runType",
+          "codingRound"
+        ],
+        "properties": {
+          "runId": {
+            "type": "string"
+          },
+          "runType": {
+            "type": "string",
+            "enum": [
+              "coding-pass",
+              "comparison",
+              "adjudication",
+              "mixed"
+            ]
+          },
+          "codingRound": {
+            "type": "string"
+          },
+          "instructionsVersion": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "sourcePacket": {
+        "type": "object",
+        "required": [
+          "packetId",
+          "packetVersion",
+          "sourcePacketVersion",
+          "blindingLevel",
+          "evidenceShown",
+          "fieldsWithheld"
+        ],
+        "properties": {
+          "packetId": {
+            "type": "string"
+          },
+          "packetVersion": {
+            "type": "string"
+          },
+          "sourcePacketVersion": {
+            "type": "string"
+          },
+          "blindingLevel": {
+            "type": "string",
+            "enum": [
+              "evidence-only",
+              "evidence-plus-neutral-context",
+              "hypothesis-redacted"
+            ]
+          },
+          "evidenceShown": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fieldsWithheld": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "coderOutputs": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "coderOutputId",
+            "coderId",
+            "coderType",
+            "runDate",
+            "reviewStatus",
+            "limitations",
+            "proposedHypotheses"
+          ],
+          "properties": {
+            "coderOutputId": {
+              "type": "string"
+            },
+            "coderId": {
+              "type": "string"
+            },
+            "coderType": {
+              "type": "string",
+              "enum": [
+                "human",
+                "model",
+                "mixed"
+              ]
+            },
+            "coderRole": {
+              "type": "string"
+            },
+            "runDate": {
+              "type": "string"
+            },
+            "reviewStatus": {
+              "type": "string"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "proposedHypotheses": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "temporaryLabel",
+                  "agencyClaim",
+                  "alternatives",
+                  "assumptions",
+                  "falsifiers",
+                  "explanatoryNecessity",
+                  "empiricalStatus",
+                  "theologicalStatus",
+                  "humanReviewRequired"
+                ],
+                "properties": {
+                  "temporaryLabel": {
+                    "type": "string"
+                  },
+                  "linkedHypothesisIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "proposedAgent": {
+                    "type": "string"
+                  },
+                  "agencyClaim": {
+                    "type": "string"
+                  },
+                  "mechanism": {
+                    "type": "string"
+                  },
+                  "medium": {
+                    "type": "string"
+                  },
+                  "manifestation": {
+                    "type": "string"
+                  },
+                  "alternatives": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "assumptions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "falsifiers": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "criterionNotes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "explanatoryNecessity": {
+                    "type": "string",
+                    "enum": [
+                      "necessary",
+                      "contributory",
+                      "compatible",
+                      "unnecessary",
+                      "unknown"
+                    ]
+                  },
+                  "empiricalStatus": {
+                    "type": "string",
+                    "enum": [
+                      "discriminated",
+                      "partially-discriminated",
+                      "underdetermined",
+                      "not-empirically-testable",
+                      "contradicted"
+                    ]
+                  },
+                  "theologicalStatus": {
+                    "type": "string",
+                    "enum": [
+                      "not-applicable",
+                      "tradition-coherent",
+                      "tradition-contested",
+                      "canonically-argued",
+                      "metaphysical-proposal",
+                      "unassessed"
+                    ]
+                  },
+                  "humanReviewRequired": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "comparison": {
+        "type": "object",
+        "required": [
+          "agreements",
+          "disagreements",
+          "noOntologyGap",
+          "noCoderError"
+        ],
+        "properties": {
+          "agreements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "disagreements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "summary",
+                "source"
+              ],
+              "properties": {
+                "summary": {
+                  "type": "string"
+                },
+                "passA": {
+                  "type": "string"
+                },
+                "passB": {
+                  "type": "string"
+                },
+                "source": {
+                  "type": "string",
+                  "enum": [
+                    "ambiguous-definition",
+                    "missing-evidence",
+                    "category-confusion",
+                    "ontology-gap",
+                    "coder-error"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "noOntologyGap": {
+            "type": "boolean"
+          },
+          "noCoderError": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "adjudication": {
+        "type": "object",
+        "required": [
+          "status",
+          "outcomes",
+          "preservedRivalExplanations",
+          "underdetermination",
+          "followUpIssueRefs"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "not-started",
+              "provisional",
+              "human-reviewed",
+              "accepted",
+              "accepted-with-revision",
+              "rejected"
+            ]
+          },
+          "outcomes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "target",
+                "outcome"
+              ],
+              "properties": {
+                "target": {
+                  "type": "string"
+                },
+                "linkedHypothesisIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "outcome": {
+                  "type": "string"
+                },
+                "disagreementSource": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "preservedRivalExplanations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "underdetermination": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "followUpIssueRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "promotionGate": {
+        "type": "object",
+        "required": [
+          "promotesFinding",
+          "approvesSpiritualAttribution",
+          "approvesPublication",
+          "createsReviewedTag",
+          "acceptedHumanReviewIds",
+          "notes"
+        ],
+        "properties": {
+          "promotesFinding": {
+            "type": "boolean"
+          },
+          "approvesSpiritualAttribution": {
+            "type": "boolean"
+          },
+          "approvesPublication": {
+            "type": "boolean"
+          },
+          "createsReviewedTag": {
+            "type": "boolean"
+          },
+          "acceptedHumanReviewIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "notes": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
