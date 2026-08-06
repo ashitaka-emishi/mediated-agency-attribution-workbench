@@ -10,12 +10,19 @@ separation between causal attribution and moral/theological judgment.
 
 1. Read `PROBLEM_STATEMENT.md`, `PROJECT_CHARTER.md`, and `maaw.project.json`.
 2. Use `.agents/skills/sdlc-workflow/SKILL.md` for issue-directed work.
-3. Inspect relevant schemas and canonical records before modifying code.
-4. Modify canonical data, never generated derivatives.
-5. Run validation, JavaScript tests, Python tests, and generation.
-6. Report schema impact, migration impact, tests, and unresolved epistemic risks.
+3. Use `.agents/skills/review-gate/SKILL.md` for human review, artifact
+   promotion, spiritual-attribution approval, publication/export approval, and
+   reviewed version/tag decisions.
+4. Inspect relevant schemas and canonical records before modifying code.
+5. Modify canonical data, never generated derivatives.
+6. Run validation, JavaScript tests, Python tests, and generation.
+7. Report schema impact, migration impact, tests, human-review gates, and
+   unresolved epistemic risks.
 
 Treat `sdlc`, `sldc`, and `$sdlc-workflow` as workflow invocations.
+Treat `review`, `review gate`, `$review-gate`, promotion, approval,
+publication, export, and reviewed tag requests as review-gate workflow
+invocations when they concern MAAW research artifacts.
 
 ## Non-negotiable constraints
 
