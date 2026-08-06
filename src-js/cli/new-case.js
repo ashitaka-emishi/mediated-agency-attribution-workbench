@@ -40,7 +40,7 @@ writeJson(path.join(directory, "case.json"), {
 for (const file of [
   "sources.json", "passages.json", "observations.json", "actors.json",
   "events.json", "mechanisms.json", "media.json", "hypotheses.json",
-  "findings.json", "reviews.json", "moral-evaluations.json"
+  "findings.json", "reliability.json", "reviews.json", "moral-evaluations.json"
 ]) {
   writeJson(path.join(directory, file), []);
 }

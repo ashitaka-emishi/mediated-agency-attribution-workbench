@@ -1,6 +1,6 @@
 {
   "projectId": "mediated-agency-attribution-workbench",
-  "generatedAt": "2026-08-06T00:18:05.263Z",
+  "generatedAt": "2026-08-06T12:25:58.294Z",
   "cases": [
     {
       "caseId": "1-kings-22-lying-spirit",
@@ -17,6 +17,7 @@
         "media": 4,
         "hypotheses": 5,
         "findings": 1,
+        "reliability": 1,
         "reviews": 1
       }
     }

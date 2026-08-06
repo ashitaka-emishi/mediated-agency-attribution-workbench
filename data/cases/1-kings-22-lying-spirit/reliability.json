@@ -1,0 +1,383 @@
+[
+  {
+    "reliabilityId": "rel-initial-codebook-coding-passes",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Initial codebook coding passes",
+    "originIssue": "14",
+    "createdBy": "ai",
+    "reviewStatus": "argument-review",
+    "date": "2026-08-06",
+    "run": {
+      "runId": "run-initial-codebook-reliability",
+      "runType": "mixed",
+      "codingRound": "initial codebook reliability pass",
+      "instructionsVersion": "docs/CODEBOOK.md as of issue 6",
+      "notes": "Migrated from docs/reliability/initial-codebook-coding-passes.md after human approval of the issue 14 storage boundary."
+    },
+    "sourcePacket": {
+      "packetId": "packet-1-kings-22-initial-blinded",
+      "packetVersion": "2026-08-06.1",
+      "sourcePacketVersion": "docs/BLINDED_CODING_PACKET_TEMPLATE.md as of issue 5",
+      "blindingLevel": "hypothesis-redacted",
+      "evidenceShown": [
+        "src-kjv-1-kings-22",
+        "src-methodological-pilot-note",
+        "pass-council-question",
+        "pass-spirit-proposal",
+        "pass-ahab-preference",
+        "pass-pilot-scope",
+        "obs-council-scene",
+        "obs-spirit-speech-medium",
+        "obs-ahab-selective-reception",
+        "obs-pilot-restraint",
+        "event-ahab-seeks-counsel",
+        "event-council-vision-reported"
+      ],
+      "fieldsWithheld": [
+        "attribution hypothesis titles and agency claims",
+        "hypothesis statuses",
+        "explanatory necessity values",
+        "empirical status values",
+        "theological status values",
+        "findings and conclusions",
+        "moral-evaluation records",
+        "prior coder outputs",
+        "human review and publication status"
+      ]
+    },
+    "coderOutputs": [
+      {
+        "coderOutputId": "coder-output-model-pass-a",
+        "coderId": "model-pass-a",
+        "coderType": "model",
+        "coderRole": "Codex reliability pass with human-agency-first emphasis",
+        "runDate": "2026-08-06",
+        "reviewStatus": "draft",
+        "limitations": [
+          "model coding output",
+          "not independent human review",
+          "repository context was available to the acting agent"
+        ],
+        "proposedHypotheses": [
+          {
+            "temporaryLabel": "Ahab Selective Agency",
+            "linkedHypothesisIds": [
+              "hyp-ahab-selective-agency"
+            ],
+            "proposedAgent": "Ahab",
+            "agencyClaim": "Ahab participates as a responsible human agent by preferring favorable counsel and resisting adverse prophecy.",
+            "mechanism": "selective reception of counsel",
+            "medium": "royal court setting and prophetic speech",
+            "manifestation": "favorable and adverse prophetic speech are distinguished in relation to Ahab's stated preference",
+            "alternatives": [
+              "court-prophetic system",
+              "prophetic symbolic mediation",
+              "reported spiritual mediation",
+              "divine judicial agency"
+            ],
+            "assumptions": [
+              "Ahab's stated preference is relevant to the episode's agency pattern"
+            ],
+            "falsifiers": [
+              "a reading that makes Ahab's preference incidental or non-attributive"
+            ],
+            "criterionNotes": [
+              "identity, persistence, directionality, selectivity, and independent evidence are satisfied",
+              "responsiveness and counterfactual dependence are underdetermined",
+              "alternatives remain live"
+            ],
+            "explanatoryNecessity": "necessary",
+            "empiricalStatus": "partially-discriminated",
+            "theologicalStatus": "not-applicable",
+            "humanReviewRequired": false
+          },
+          {
+            "temporaryLabel": "Court-Prophetic System",
+            "linkedHypothesisIds": [
+              "hyp-court-prophetic-system"
+            ],
+            "proposedAgent": "royal counsel system and Ahab's court prophets",
+            "agencyClaim": "The court-prophetic arrangement contributes to the decision environment by organizing public prophetic counsel around royal desire.",
+            "mechanism": "court consultation and prophetic speech mediation",
+            "medium": "royal court and prophetic mouths",
+            "manifestation": "prophetic messages are performed before a military decision",
+            "alternatives": [
+              "Ahab's agency",
+              "prophetic symbolic mediation",
+              "spiritual mediation",
+              "divine judicial agency"
+            ],
+            "assumptions": [
+              "the court setting is more than incidental background"
+            ],
+            "falsifiers": [
+              "evidence that the court form has no interpretive role"
+            ],
+            "criterionNotes": [
+              "identity is partially satisfied",
+              "directionality and selectivity are underdetermined",
+              "counterfactual dependence is weak because the packet lacks fuller court-scene evidence"
+            ],
+            "explanatoryNecessity": "contributory",
+            "empiricalStatus": "underdetermined",
+            "theologicalStatus": "not-applicable",
+            "humanReviewRequired": false
+          },
+          {
+            "temporaryLabel": "Lying Spirit Mediation",
+            "linkedHypothesisIds": [
+              "hyp-lying-spirit-mediation"
+            ],
+            "proposedAgent": "the lying spirit reported in Micaiah's vision",
+            "agencyClaim": "The text proposes a nonhuman spiritual agent whose deceptive role is mediated through prophetic speech.",
+            "mechanism": "narrated spiritual deception and prophetic mediation",
+            "medium": "prophetic mouths and scriptural narrative",
+            "manifestation": "deception is linked to a spirit's proposed role in the mouths of prophets",
+            "alternatives": [
+              "Ahab's agency",
+              "court consultation",
+              "symbolic mediation",
+              "divine judicial agency"
+            ],
+            "assumptions": [
+              "the council vision is relevant to agency attribution within the narrative world"
+            ],
+            "falsifiers": [
+              "a literary or theological reading that treats the spirit as non-attributive imagery only",
+              "any use beyond the bounded text without warrant"
+            ],
+            "criterionNotes": [
+              "identity and independent textual evidence are satisfied within the bounded passage",
+              "persistence, responsiveness, and empirical counterfactual dependence remain underdetermined",
+              "no spiritual attribution is approved"
+            ],
+            "explanatoryNecessity": "compatible",
+            "empiricalStatus": "not-empirically-testable",
+            "theologicalStatus": "canonically-argued",
+            "humanReviewRequired": true
+          }
+        ]
+      },
+      {
+        "coderOutputId": "coder-output-model-pass-b",
+        "coderId": "model-pass-b",
+        "coderType": "model",
+        "coderRole": "Codex reliability pass with textual-mediation emphasis",
+        "runDate": "2026-08-06",
+        "reviewStatus": "draft",
+        "limitations": [
+          "model coding output",
+          "not independent human review",
+          "repository context was available to the acting agent"
+        ],
+        "proposedHypotheses": [
+          {
+            "temporaryLabel": "Prophetic Symbolic Mediation",
+            "linkedHypothesisIds": [
+              "hyp-prophetic-symbolic-mediation"
+            ],
+            "proposedAgent": "Micaiah and the court prophets as prophetic speakers",
+            "agencyClaim": "Rival prophetic speech mediates the meaning of Ahab's decision by staging favorable authorization and adverse warning.",
+            "mechanism": "prophetic speech mediation and selective reception",
+            "medium": "prophetic mouths, Micaiah's vision report, and scriptural narrative",
+            "manifestation": "the decision is interpreted through rival prophetic messages",
+            "alternatives": [
+              "Ahab's agency",
+              "court consultation",
+              "reported spiritual mediation",
+              "divine judicial agency"
+            ],
+            "assumptions": [
+              "prophetic speech functions as an interpretive medium rather than mere background"
+            ],
+            "falsifiers": [
+              "a stronger reading that the episode is not interested in prophetic mediation as a distinct level"
+            ],
+            "criterionNotes": [
+              "identity, directionality, and independent evidence are partially satisfied",
+              "selectivity is underdetermined because the packet does not fully distinguish speaker intention from royal reception",
+              "alternatives remain live"
+            ],
+            "explanatoryNecessity": "contributory",
+            "empiricalStatus": "partially-discriminated",
+            "theologicalStatus": "tradition-coherent",
+            "humanReviewRequired": false
+          },
+          {
+            "temporaryLabel": "Divine Judicial Agency",
+            "linkedHypothesisIds": [
+              "hyp-divine-judicial-agency"
+            ],
+            "proposedAgent": "YHWH in the reported council vision",
+            "agencyClaim": "The narrative presents divine judicial agency as governing the council scene while remaining distinguishable from creaturely mediation and Ahab's responsibility.",
+            "mechanism": "divine judicial permission and prophetic mediation",
+            "medium": "Micaiah's vision report and scriptural narrative",
+            "manifestation": "the council vision frames deception within divine judgment",
+            "alternatives": [
+              "Ahab's agency",
+              "court consultation",
+              "prophetic symbolic mediation",
+              "lying spirit mediation"
+            ],
+            "assumptions": [
+              "the narrative depiction of YHWH is germane to theological agency attribution"
+            ],
+            "falsifiers": [
+              "a reading that treats the council scene as non-attributive imagery only",
+              "a reading that collapses divine agency into creaturely agency"
+            ],
+            "criterionNotes": [
+              "identity is satisfied at the textual-theological level",
+              "counterfactual dependence is not empirically testable",
+              "human review remains required because the claim involves divine agency and theological judgment"
+            ],
+            "explanatoryNecessity": "compatible",
+            "empiricalStatus": "not-empirically-testable",
+            "theologicalStatus": "canonically-argued",
+            "humanReviewRequired": true
+          },
+          {
+            "temporaryLabel": "Court-Prophetic System",
+            "linkedHypothesisIds": [
+              "hyp-court-prophetic-system"
+            ],
+            "proposedAgent": "court prophets as a collective actor, with the court system as a possible institutional medium",
+            "agencyClaim": "The court-prophetic scene contributes to the shape of counsel, but the packet is too small to decide whether the institution itself should be coded as an agent.",
+            "mechanism": "court consultation and prophetic mediation",
+            "medium": "royal court and prophetic mouths",
+            "manifestation": "favorable prophetic speech is publicly available in the royal deliberation",
+            "alternatives": [
+              "Ahab's agency",
+              "prophetic symbolic mediation",
+              "lying spirit mediation",
+              "divine judicial agency"
+            ],
+            "assumptions": [
+              "collective prophetic speech can be evaluated apart from the institution's agency"
+            ],
+            "falsifiers": [
+              "evidence that the court system has stable agency criteria within the bounded text"
+            ],
+            "criterionNotes": [
+              "the court prophets have textual identity",
+              "the institution as an agent risks category confusion unless more evidence distinguishes agent from medium"
+            ],
+            "explanatoryNecessity": "unknown",
+            "empiricalStatus": "underdetermined",
+            "theologicalStatus": "not-applicable",
+            "humanReviewRequired": false
+          }
+        ]
+      }
+    ],
+    "comparison": {
+      "agreements": [
+        "Ahab's human agency remains a lower-level explanation",
+        "spiritual-attribution proposals require human review",
+        "rival explanations remain live",
+        "reliability coding does not promote findings"
+      ],
+      "disagreements": [
+        {
+          "summary": "Whether the royal counsel system is an agent or primarily a medium",
+          "passA": "Codes system and prophets as a contributory institutional agent",
+          "passB": "Codes prophets as collective actor and treats the system as underdetermined",
+          "source": "category-confusion"
+        },
+        {
+          "summary": "Whether prophetic symbolic mediation should be foregrounded",
+          "passA": "Treats it mostly as a mechanism or medium within other hypotheses",
+          "passB": "Treats it as a distinct contributory hypothesis",
+          "source": "missing-evidence"
+        },
+        {
+          "summary": "Whether divine judicial agency should be separately coded in the first pass",
+          "passA": "Leaves it implicit as a qualifier of the spiritual hypothesis",
+          "passB": "Codes it as a distinct textual-theological hypothesis",
+          "source": "ambiguous-definition"
+        },
+        {
+          "summary": "How to use compatible-but-unnecessary language",
+          "passA": "Uses compatible for explanatory necessity and avoids status promotion",
+          "passB": "Initially flagged the issue as compatible but unnecessary in prose",
+          "source": "ambiguous-definition"
+        },
+        {
+          "summary": "Degree of selectivity for court prophets",
+          "passA": "Underdetermined",
+          "passB": "Partially satisfied for collective speech but not institutional agency",
+          "source": "missing-evidence"
+        }
+      ],
+      "noOntologyGap": true,
+      "noCoderError": true
+    },
+    "adjudication": {
+      "status": "provisional",
+      "outcomes": [
+        {
+          "target": "Ahab Selective Agency",
+          "linkedHypothesisIds": [
+            "hyp-ahab-selective-agency"
+          ],
+          "outcome": "preserve as a lower-level explanation; Ahab's human agency is necessary for the bounded royal-decision pattern"
+        },
+        {
+          "target": "Court-Prophetic System",
+          "linkedHypothesisIds": [
+            "hyp-court-prophetic-system"
+          ],
+          "outcome": "preserve as underdetermined and qualified; further evidence is required before changing canonical data",
+          "disagreementSource": "category confusion and missing evidence"
+        },
+        {
+          "target": "Prophetic Symbolic Mediation",
+          "linkedHypothesisIds": [
+            "hyp-prophetic-symbolic-mediation"
+          ],
+          "outcome": "preserve as a distinct contributory explanation",
+          "disagreementSource": "missing evidence"
+        },
+        {
+          "target": "Lying Spirit Mediation",
+          "linkedHypothesisIds": [
+            "hyp-lying-spirit-mediation"
+          ],
+          "outcome": "preserve as a proposed, human-gated spiritual attribution; no approval or generalization is made"
+        },
+        {
+          "target": "Divine Judicial Agency",
+          "linkedHypothesisIds": [
+            "hyp-divine-judicial-agency"
+          ],
+          "outcome": "preserve as a separate theological hypothesis where used, distinct from creaturely mediation and moral evaluation",
+          "disagreementSource": "ambiguous definition"
+        }
+      ],
+      "preservedRivalExplanations": [
+        "Ahab's agency",
+        "court consultation",
+        "prophetic symbolic mediation",
+        "lying spirit mediation",
+        "divine judicial agency"
+      ],
+      "underdetermination": [
+        "the royal counsel system may be either an analytical institutional agent or a medium",
+        "the small packet does not settle how much weight symbolic mediation can bear",
+        "divine agency requires theological review before any approval"
+      ],
+      "followUpIssueRefs": [
+        "14"
+      ]
+    },
+    "promotionGate": {
+      "promotesFinding": false,
+      "approvesSpiritualAttribution": false,
+      "approvesPublication": false,
+      "createsReviewedTag": false,
+      "acceptedHumanReviewIds": [],
+      "notes": "This canonical reliability record preserves provisional model coding and adjudication output only. It does not approve spiritual attribution, promote findings, publish, export, or create a reviewed version."
+    },
+    "notes": "Human approval in issue 14 authorized canonical storage of reliability/adjudication records, not acceptance of the migrated model outputs."
+  }
+]

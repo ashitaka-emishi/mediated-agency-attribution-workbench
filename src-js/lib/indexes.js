@@ -14,6 +14,7 @@ export function buildIndexes(bundles) {
       media: bundle.media.length,
       hypotheses: bundle.hypotheses.length,
       findings: bundle.findings.length,
+      reliability: bundle.reliability.length,
       reviews: bundle.reviews.length
     }
   }));
