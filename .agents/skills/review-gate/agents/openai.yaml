@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Gate"
+  short_description: "Human review, promotion, and version gates."
+  default_prompt: "Use $review-gate to prepare or record a human review, promotion decision, or reviewed version tag."

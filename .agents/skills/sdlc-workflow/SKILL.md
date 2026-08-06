@@ -17,6 +17,46 @@ Use this skill to keep issue-driven GitHub work consistent and auditable.
 - Open pull requests as ready for review, not draft.
 - Keep a human control point between pull request creation and merge. Do not merge or close issues unless the user explicitly asks for that workflow or has clearly delegated it.
 - Always use squash merge for pull requests. Do not use merge commits or rebase merge unless the user explicitly overrides this rule for a specific PR.
+- Treat implementation merge as repository change control, not research-artifact
+  approval. Stop before human-gated promotion, approval, publication, export,
+  or reviewed tag creation unless the user explicitly invokes the review-gate
+  workflow.
+
+## Human Review Gates
+
+SDLC work may add draft findings, provisional coding passes, review packets,
+schemas, ontology proposals, or publication/export scaffolds. A merged PR means
+the repository changed; it does not mean the research artifact was accepted.
+
+Use `$review-gate` for human review, promotion, and reviewed-version work.
+Examples of human-gated actions include:
+
+- spiritual-attribution approval;
+- finding promotion;
+- ontology, controlled-vocabulary, or schema approval;
+- canonical promotion of imported, AI-generated, or model-coded artifacts;
+- reliability/adjudication acceptance;
+- source-rights approval;
+- publication approval;
+- external export approval;
+- reviewed version or tag creation.
+
+When an SDLC issue produces human-gated artifacts, finish the implementation
+issue normally, but report the review gate in the PR body and final response.
+Do not change canonical statuses to approved/reviewed, publish/export, or
+create reviewed tags unless the active issue is explicitly a human review or
+promotion issue and the user has supplied the human decision.
+
+Keep versioning distinct:
+
+- Git/SDLC versioning records commits, PRs, and implementation history.
+- Reviewed research-artifact versioning records accepted findings, approved
+  attributions, publication/export states, and reviewed tags.
+
+A promotion issue may pin a reviewed version or tag, but the issue must state
+the reviewed artifacts, reviewer authority, decision, rationale, source commit
+or PR range, and exact tag name. Ordinary implementation PRs must not imply
+that a reviewed version has been pinned.
 
 ## Command Interpretation
 
@@ -49,7 +89,8 @@ For a multi-issue request, do each issue completely before starting the next one
 4. open a ready PR when code or repository files changed;
 5. merge/close that issue before moving to the next issue;
 6. update relevant tracking issues;
-7. sync the base branch and confirm a clean working tree before starting the next issue.
+7. report any human-review gates produced by the issue;
+8. sync the base branch and confirm a clean working tree before starting the next issue.
 
 The multi-issue form is explicit merge/close delegation for every listed issue. It satisfies the human control point for each issue in the batch, so do not stop after opening each PR unless checks fail, review blocks the PR, the issue is ambiguous, or the user interrupts. For planning-only issues with no branch or PR, complete the required GitHub issue work, add a completion comment when useful, close the issue, and update the tracker before moving on. If an issue is already closed, report it and continue to the next listed issue unless the user asked to reopen or revise it. If any issue is blocked, stop the batch and report the blocker, completed issues, and the smallest next action.
 
@@ -98,6 +139,9 @@ python3 .agents/skills/sdlc-workflow/scripts/sdlc_state.py tracker-entry <issue-
 2. Make the smallest coherent change that satisfies the issue.
 3. Keep generated artifacts and source edits separate when practical.
 4. Run validation scaled to the blast radius.
+5. If the change creates or modifies human-gated artifacts, leave them draft or
+   provisional and record the required `$review-gate` follow-up instead of
+   promoting them.
 
 For this project, full pipeline/publication validation is:
 
@@ -150,6 +194,7 @@ Handle findings before PR creation:
    - validation commands and results
    - known limitations or follow-up work
    - tech-debt issues filed for deferred findings, if any
+   - human-review gates created or intentionally left pending, if any
 5. Stop after PR creation unless the user explicitly asks to merge. This preserves the human control point before merge.
    - In a multi-issue command, the batch request itself is explicit merge authorization. Continue into Merge And Close for the current issue once checks are passing.
 
@@ -177,7 +222,11 @@ Only do this when the user explicitly asks.
    - check off the issue
    - note out-of-order completion or dependency changes
    - close the tracking issue only when its completion definition is met
-6. Inspect the updated tracker, dependencies, and existing branch/PR state, then suggest the next recommended ticket without starting it.
+6. Report any human-review gates that remain after merge and recommend
+   `$review-gate` when promotion, approval, export, publication, or reviewed
+   tagging is the next step.
+7. Inspect the updated tracker, dependencies, and existing branch/PR state,
+   then suggest the next recommended ticket without starting it.
 
 ## If Blocked
 
