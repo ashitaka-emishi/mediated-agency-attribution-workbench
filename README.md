@@ -86,6 +86,8 @@ Source -> Passage -> Observation -> Event/Actor/Mechanism/Medium
 - `docs/BLINDED_CODING_PACKET_TEMPLATE.md` - reviewer packet template
 - `docs/reliability/initial-codebook-coding-passes.md` - initial reliability
   coding exercise and provisional adjudication notes
+- `docs/ONTOLOGY_SCHEMA_IMPACT_REVIEW.md` - Epic 10 ontology/schema impact
+  review
 - `data/ontology/` - ontology and controlled vocabulary
 - `data/traditions/` - interpretive lenses
 - `data/cases/` - canonical case records

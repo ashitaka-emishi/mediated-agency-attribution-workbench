@@ -27,6 +27,8 @@ Blinded reliability passes should use
 adjudicated.
 The initial documented exercise is recorded in
 `docs/reliability/initial-codebook-coding-passes.md`.
+The Epic 10 ontology and schema impact review is recorded in
+`docs/ONTOLOGY_SCHEMA_IMPACT_REVIEW.md`.
 
 ## Sequence
 

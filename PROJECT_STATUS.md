@@ -14,6 +14,7 @@
 - Python tests: passing
 - blinded coding packet template: complete
 - initial codebook coding passes and provisional adjudication: complete
+- Epic 10 ontology/schema impact review: complete; no migration accepted
 - biblical pilot case: 1 Kings 22 scaffold complete
 - external export surface: deferred pending a separate integration issue
 - Quarto publication skeleton: complete
@@ -25,6 +26,7 @@
   yet invoke a full JSON Schema engine;
 - no canonical reliability/adjudication record schema or adjudication queue
   generator is implemented yet;
+- no Epic 10 ontology or schema migration has been accepted;
 - no temporal causal graph or intervention log is implemented yet;
 - no finding has passed human review, so publication remains private;
 - biblical terms are not yet mapped directly onto ontology classes.
