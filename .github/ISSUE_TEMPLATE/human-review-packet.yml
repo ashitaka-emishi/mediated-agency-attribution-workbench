@@ -1,0 +1,85 @@
+name: Human review packet
+description: Request a prose-first packet for a human-gated research decision.
+title: "[Human Review] "
+labels: ["review", "epistemic-risk"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for human-gated review work. The implementation should use `$review-packet` and `$review-gate`, starting from `docs/templates/human-review-packet-template.md`.
+
+        Opening or merging the packet issue does not approve a finding, spiritual attribution, publication/export, reliability/adjudication result, or reviewed tag.
+  - type: textarea
+    id: review-targets
+    attributes:
+      label: Review targets
+      description: List artifact paths and record IDs.
+      placeholder: |
+        - data/cases/.../findings.json: finding-id
+        - data/cases/.../hypotheses.json: hypothesis-id
+        - data/cases/.../reliability.json: reliability-id
+    validations:
+      required: true
+  - type: dropdown
+    id: requested-decision
+    attributes:
+      label: Requested decision boundary
+      options:
+        - prepare packet only
+        - pending
+        - accept
+        - accept-with-revision
+        - revise
+        - reject
+        - abstain
+        - promote
+        - publish
+        - export
+        - tag reviewed version
+    validations:
+      required: true
+  - type: textarea
+    id: human-gates
+    attributes:
+      label: Human gates involved
+      description: Name any gated decision this packet must preserve or request.
+      placeholder: |
+        - spiritual-attribution approval
+        - finding promotion
+        - reliability/adjudication acceptance
+        - publication/export approval
+        - reviewed version tag
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, sources, and provenance concerns
+      description: Include source IDs, passage IDs, rights/provenance concerns, and unreviewed source work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives, assumptions, falsifiers, and uncertainty
+      description: List live alternatives and what would trigger revision or rejection.
+    validations:
+      required: true
+  - type: textarea
+    id: reviewer
+    attributes:
+      label: Reviewer identity or authority
+      description: Leave blank if unknown.
+  - type: checkboxes
+    id: packet-requirements
+    attributes:
+      label: Packet requirements
+      options:
+        - label: Packet should be human-readable before it is JSON-readable.
+          required: true
+        - label: Packet should link back to source project files.
+          required: true
+        - label: Packet should separate textual/empirical assessment, moral evaluation, and theological judgment.
+          required: true
+        - label: Packet should leave approvals, promotions, publication/export, and reviewed tags pending unless the human decision is explicit.
+          required: true

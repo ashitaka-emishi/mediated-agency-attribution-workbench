@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Packet"
+  short_description: "Prepare prose-first human review packets from canonical MAAW records."
+  default_prompt: "Use $review-packet to prepare a human-readable review packet with traceability links, reviewer prompts, and preserved human gates."
