@@ -16,13 +16,13 @@ class HypothesisProfileTests(unittest.TestCase):
             ROOT
             / "data"
             / "cases"
-            / "institutional-sacrificial-escalation"
+            / "1-kings-22-lying-spirit"
         )
         profiles = load_profiles(case_dir)
         spiritual = next(
             item
             for item in profiles
-            if item.hypothesis_id == "hyp-layered-spiritual"
+            if item.hypothesis_id == "hyp-lying-spirit-mediation"
         )
         self.assertTrue(spiritual.human_review_required)
         self.assertEqual(
@@ -35,7 +35,7 @@ class HypothesisProfileTests(unittest.TestCase):
             ROOT
             / "data"
             / "cases"
-            / "institutional-sacrificial-escalation"
+            / "1-kings-22-lying-spirit"
         )
         for item in load_profiles(case_dir):
             self.assertGreater(item.falsifiers_count, 0)

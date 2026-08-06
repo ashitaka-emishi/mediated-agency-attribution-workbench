@@ -1,0 +1,50 @@
+[
+  {
+    "observationId": "obs-council-scene",
+    "caseId": "1-kings-22-lying-spirit",
+    "observation": "The narrative depicts a heavenly council scene in which YHWH is enthroned and the host of heaven is present.",
+    "derivedFrom": [
+      "pass-council-question"
+    ],
+    "observationType": "textual",
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": "This records narrative presentation rather than adjudicating ontology."
+  },
+  {
+    "observationId": "obs-spirit-speech-medium",
+    "caseId": "1-kings-22-lying-spirit",
+    "observation": "The narrated spirit proposes to become a lying spirit in the mouth of Ahab's prophets.",
+    "derivedFrom": [
+      "pass-spirit-proposal"
+    ],
+    "observationType": "textual",
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": "The observation records the text's reported proposal, not a general rule for spiritual attribution."
+  },
+  {
+    "observationId": "obs-ahab-selective-reception",
+    "caseId": "1-kings-22-lying-spirit",
+    "observation": "Ahab's stated complaint against Micaiah contrasts desired favorable prophecy with unwelcome adverse prophecy.",
+    "derivedFrom": [
+      "pass-ahab-preference"
+    ],
+    "observationType": "textual",
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": ""
+  },
+  {
+    "observationId": "obs-pilot-restraint",
+    "caseId": "1-kings-22-lying-spirit",
+    "observation": "The case design distinguishes textual claims, theological interpretation, human decision, and proposed spiritual mediation.",
+    "derivedFrom": [
+      "pass-pilot-scope"
+    ],
+    "observationType": "methodological",
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": ""
+  }
+]

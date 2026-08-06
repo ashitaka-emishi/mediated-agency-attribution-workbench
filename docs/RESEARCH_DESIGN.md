@@ -11,10 +11,10 @@ Refine agent, cause, mechanism, medium, manifestation, interpretation, identity,
 persistence, directionality, selectivity, responsiveness, counterfactual
 dependence, and independent evidence.
 
-## Phase 2 — Pilot expansion
+## Phase 2 — Biblical pilot expansion
 
-Add primary sources, institutional records, reception and ritual evidence,
-countercases, and chronological process events.
+Add primary sources, textual witnesses, reception history, interpretive
+traditions, counter-readings, and chronological process events where relevant.
 
 ## Phase 3 — Reliability
 
@@ -27,7 +27,8 @@ Test the framework against clear group agents, rhetorical personification
 without strong agency, destructive outcomes without intention, participant
 spiritual interpretations, and cases of reform or dissolution.
 
-## Phase 5 — PPW integration
+## Phase 5 — Reviewed publication and optional exports
 
-Export reviewed findings while preserving PPW ownership of promoted claims,
-interpretations, scores, and theory evaluation.
+Publish reviewed findings from canonical records. Add external exports only
+when a separate issue defines the receiving system, ownership boundary, review
+requirements, and source-rights constraints.

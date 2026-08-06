@@ -12,8 +12,8 @@
 - deterministic generated indexes: complete
 - Node.js tests: passing
 - Python tests: passing
-- PPW evidence-module registration template: complete
-- PPW human-reviewed export gate: functioning
+- biblical pilot case: 1 Kings 22 scaffold complete
+- external export surface: deferred pending a separate integration issue
 - Quarto publication skeleton: complete
 
 ## Known intentional limitations
@@ -23,8 +23,8 @@
   yet invoke a full JSON Schema engine;
 - no reliability packet or adjudication queue generator is implemented yet;
 - no temporal causal graph or intervention log is implemented yet;
-- no finding has passed human review, so PPW export is empty;
-- theological terms are not yet mapped directly onto ontology classes.
+- no finding has passed human review, so publication remains private;
+- biblical terms are not yet mapped directly onto ontology classes.
 
 ## Recommended first issue
 

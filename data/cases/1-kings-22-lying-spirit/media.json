@@ -1,0 +1,40 @@
+[
+  {
+    "mediumId": "med-prophetic-mouths",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Mouths of the prophets",
+    "mediumClass": "human-body",
+    "description": "The bodily speech of Ahab's prophets as the narrated medium of deception.",
+    "actorIds": [
+      "actor-court-prophets"
+    ]
+  },
+  {
+    "mediumId": "med-micaiah-vision-report",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Micaiah's vision report",
+    "mediumClass": "text",
+    "description": "The reported prophetic disclosure of the heavenly council scene.",
+    "actorIds": [
+      "actor-micaiah"
+    ]
+  },
+  {
+    "mediumId": "med-royal-court",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Royal court setting",
+    "mediumClass": "institution",
+    "description": "The setting in which prophetic counsel is requested, performed, heard, and acted upon.",
+    "actorIds": [
+      "actor-royal-counsel-system"
+    ]
+  },
+  {
+    "mediumId": "med-scriptural-narrative",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Scriptural narrative",
+    "mediumClass": "text",
+    "description": "The canonical textual form through which the episode is available for interpretation.",
+    "actorIds": []
+  }
+]

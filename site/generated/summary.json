@@ -1,20 +1,20 @@
 {
   "projectId": "mediated-agency-attribution-workbench",
-  "generatedAt": "2026-08-05T22:35:52.370Z",
+  "generatedAt": "2026-08-06T00:18:05.263Z",
   "cases": [
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "title": "Institutional Self-Preservation Through Sacrificial Escalation",
+      "caseId": "1-kings-22-lying-spirit",
+      "title": "The Lying Spirit Before Ahab",
       "status": "scaffold",
       "reviewStatus": "draft",
       "counts": {
         "sources": 2,
-        "passages": 2,
-        "observations": 2,
-        "actors": 5,
-        "events": 1,
+        "passages": 4,
+        "observations": 4,
+        "actors": 7,
+        "events": 2,
         "mechanisms": 5,
-        "media": 3,
+        "media": 4,
         "hypotheses": 5,
         "findings": 1,
         "reviews": 1
@@ -23,9 +23,9 @@
   ],
   "hypotheses": [
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "hypothesisId": "hyp-human-rhetorical-action",
-      "title": "Human rhetorical agency",
+      "caseId": "1-kings-22-lying-spirit",
+      "hypothesisId": "hyp-ahab-selective-agency",
+      "title": "Ahab's selective human agency",
       "status": "plausible",
       "agencyType": "intentional",
       "explanatoryNecessity": "necessary",
@@ -35,11 +35,11 @@
       "humanReviewRequired": false
     },
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "hypothesisId": "hyp-psychological-feedback",
-      "title": "Psychological commitment escalation",
+      "caseId": "1-kings-22-lying-spirit",
+      "hypothesisId": "hyp-court-prophetic-system",
+      "title": "Royal court consultation system",
       "status": "proposed",
-      "agencyType": "systemic",
+      "agencyType": "institutional",
       "explanatoryNecessity": "contributory",
       "empiricalStatus": "underdetermined",
       "theologicalStatus": "not-applicable",
@@ -47,54 +47,54 @@
       "humanReviewRequired": false
     },
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "hypothesisId": "hyp-institutional-agency",
-      "title": "Institutional continuity and self-preservation",
-      "status": "proposed",
-      "agencyType": "institutional",
-      "explanatoryNecessity": "unknown",
-      "empiricalStatus": "underdetermined",
-      "theologicalStatus": "not-applicable",
-      "reviewStatus": "draft",
-      "humanReviewRequired": false
-    },
-    {
-      "caseId": "institutional-sacrificial-escalation",
-      "hypothesisId": "hyp-symbolic-order",
-      "title": "Sacralized symbolic-order mediation",
-      "status": "proposed",
+      "caseId": "1-kings-22-lying-spirit",
+      "hypothesisId": "hyp-prophetic-symbolic-mediation",
+      "title": "Prophetic symbolic mediation",
+      "status": "plausible",
       "agencyType": "symbolic",
-      "explanatoryNecessity": "unknown",
-      "empiricalStatus": "underdetermined",
-      "theologicalStatus": "tradition-contested",
+      "explanatoryNecessity": "contributory",
+      "empiricalStatus": "partially-discriminated",
+      "theologicalStatus": "tradition-coherent",
       "reviewStatus": "draft",
       "humanReviewRequired": false
     },
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "hypothesisId": "hyp-layered-spiritual",
-      "title": "Layered hostile spiritual mediation",
-      "status": "underdetermined",
-      "agencyType": "layered",
+      "caseId": "1-kings-22-lying-spirit",
+      "hypothesisId": "hyp-lying-spirit-mediation",
+      "title": "Lying spirit mediated through prophets",
+      "status": "plausible",
+      "agencyType": "spiritual-proposed",
       "explanatoryNecessity": "compatible",
       "empiricalStatus": "not-empirically-testable",
-      "theologicalStatus": "metaphysical-proposal",
+      "theologicalStatus": "canonically-argued",
+      "reviewStatus": "draft",
+      "humanReviewRequired": true
+    },
+    {
+      "caseId": "1-kings-22-lying-spirit",
+      "hypothesisId": "hyp-divine-judicial-agency",
+      "title": "Divine judicial agency in the council scene",
+      "status": "plausible",
+      "agencyType": "spiritual-proposed",
+      "explanatoryNecessity": "compatible",
+      "empiricalStatus": "not-empirically-testable",
+      "theologicalStatus": "canonically-argued",
       "reviewStatus": "draft",
       "humanReviewRequired": true
     }
   ],
   "traceability": [
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "findingId": "finding-pilot-attribution",
+      "caseId": "1-kings-22-lying-spirit",
+      "findingId": "finding-biblical-pilot-attribution",
       "status": "draft",
       "reviewStatus": "draft",
       "hypothesisIds": [
-        "hyp-human-rhetorical-action",
-        "hyp-psychological-feedback",
-        "hyp-institutional-agency",
-        "hyp-symbolic-order",
-        "hyp-layered-spiritual"
+        "hyp-ahab-selective-agency",
+        "hyp-court-prophetic-system",
+        "hyp-prophetic-symbolic-mediation",
+        "hyp-lying-spirit-mediation",
+        "hyp-divine-judicial-agency"
       ],
       "humanReviewIds": []
     }

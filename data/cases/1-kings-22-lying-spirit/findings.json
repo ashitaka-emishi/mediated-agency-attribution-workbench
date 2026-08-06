@@ -1,0 +1,27 @@
+[
+  {
+    "findingId": "finding-biblical-pilot-attribution",
+    "caseId": "1-kings-22-lying-spirit",
+    "statement": "The pilot supports a layered reading of 1 Kings 22 in which human desire, courtly prophetic mediation, the lying spirit's proposed agency, and divine judicial agency must be distinguished rather than collapsed.",
+    "hypothesisIds": [
+      "hyp-ahab-selective-agency",
+      "hyp-court-prophetic-system",
+      "hyp-prophetic-symbolic-mediation",
+      "hyp-lying-spirit-mediation",
+      "hyp-divine-judicial-agency"
+    ],
+    "status": "draft",
+    "empiricalConclusion": "The textual record directly supports observations about Ahab's stated preference, Micaiah's reported council vision, and the spirit's proposed speech-mediated role. Historical reconstruction and comparative tradition analysis remain provisional.",
+    "theologicalConclusion": "Within the biblical narrative, spiritual agency is textually proposed and canonically arguable, but approval, generalization, and doctrinal synthesis require human theological review.",
+    "uncertainties": [
+      "translation and textual witnesses have not been fully reviewed",
+      "the case has not yet compared major Jewish and Christian interpretive traditions",
+      "the relation between divine permission, spirit agency, prophetic speech, and human responsibility remains contested",
+      "the pilot does not establish criteria for transferring this attribution pattern to modern cases"
+    ],
+    "humanReviewIds": [],
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "publicationStatus": "private-note"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "reviewId": "review-biblical-pilot-pending",
+    "caseId": "1-kings-22-lying-spirit",
+    "targetRef": "finding-biblical-pilot-attribution",
+    "reviewer": "unassigned",
+    "reviewerType": "human",
+    "decision": "pending",
+    "rationale": "Initial human adjudication has not yet occurred.",
+    "date": "2026-08-05",
+    "epistemicConcerns": [
+      "source base is intentionally narrow",
+      "theological and literary interpretations require expert review",
+      "spiritual hypotheses must not be generalized beyond the passage without separate warrant"
+    ]
+  }
+]

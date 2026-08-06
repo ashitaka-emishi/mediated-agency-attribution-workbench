@@ -1,0 +1,72 @@
+[
+  {
+    "mechanismId": "mech-selective-reception",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Selective reception of counsel",
+    "mechanismClass": "psychological",
+    "description": "Desired outcomes shape which counsel is welcomed, resisted, or discounted.",
+    "observableIndicators": [
+      "preference for favorable prophecy",
+      "hostility toward corrective speech"
+    ],
+    "boundaryConditions": [
+      "does not by itself establish spiritual mediation or divine judgment"
+    ]
+  },
+  {
+    "mechanismId": "mech-court-consultation",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Royal court consultation",
+    "mechanismClass": "institutional",
+    "description": "Royal decision-making is mediated through counsel, prophetic performance, office, and court procedure.",
+    "observableIndicators": [
+      "king seeks counsel before battle",
+      "prophets speak within a royal audience"
+    ],
+    "boundaryConditions": [
+      "institutional analysis must remain distinct from spiritual attribution"
+    ]
+  },
+  {
+    "mechanismId": "mech-prophetic-mediation",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Prophetic speech mediation",
+    "mechanismClass": "symbolic",
+    "description": "Speech presented as prophecy mediates interpretation, warning, authorization, or deception.",
+    "observableIndicators": [
+      "prophetic message frames the proposed action",
+      "competing prophetic voices interpret the same decision"
+    ],
+    "boundaryConditions": [
+      "prophetic medium does not settle the source or truthfulness of the message without further argument"
+    ]
+  },
+  {
+    "mechanismId": "mech-narrated-spiritual-deception",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Narrated spiritual deception",
+    "mechanismClass": "spiritual-proposed",
+    "description": "The text reports a spirit proposing deception through the speech of prophets.",
+    "observableIndicators": [
+      "spirit proposes a deceptive role",
+      "deception is described as mediated through mouths of prophets"
+    ],
+    "boundaryConditions": [
+      "requires textual and theological interpretation and does not license automatic transfer to other cases"
+    ]
+  },
+  {
+    "mechanismId": "mech-divine-judicial-permission",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Divine judicial permission",
+    "mechanismClass": "spiritual-proposed",
+    "description": "The narrative presents YHWH's judgment as permitting the spirit's proposed mediation.",
+    "observableIndicators": [
+      "council scene frames the event in relation to YHWH",
+      "permission language follows the spirit's proposal"
+    ],
+    "boundaryConditions": [
+      "theological interpretation must distinguish divine sovereignty, creaturely agency, and human responsibility"
+    ]
+  }
+]

@@ -6,5 +6,5 @@
 - **Epic 30:** attribution discriminator engine
 - **Epic 40:** reliability and adjudication
 - **Epic 50:** comparative synthesis and countercases
-- **Epic 60:** PPW integration
+- **Epic 60:** reviewed publication and optional external exports
 - **Epic 70:** reviewed publication

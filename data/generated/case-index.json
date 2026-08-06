@@ -1,20 +1,20 @@
 {
   "schemaVersion": "0.1.0",
-  "generatedAt": "2026-08-05T22:35:52.183Z",
+  "generatedAt": "2026-08-06T00:18:05.058Z",
   "records": [
     {
-      "caseId": "institutional-sacrificial-escalation",
-      "title": "Institutional Self-Preservation Through Sacrificial Escalation",
+      "caseId": "1-kings-22-lying-spirit",
+      "title": "The Lying Spirit Before Ahab",
       "status": "scaffold",
       "reviewStatus": "draft",
       "counts": {
         "sources": 2,
-        "passages": 2,
-        "observations": 2,
-        "actors": 5,
-        "events": 1,
+        "passages": 4,
+        "observations": 4,
+        "actors": 7,
+        "events": 2,
         "mechanisms": 5,
-        "media": 3,
+        "media": 4,
         "hypotheses": 5,
         "findings": 1,
         "reviews": 1

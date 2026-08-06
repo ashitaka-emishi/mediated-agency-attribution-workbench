@@ -1,0 +1,57 @@
+[
+  {
+    "eventId": "event-ahab-seeks-counsel",
+    "caseId": "1-kings-22-lying-spirit",
+    "label": "Ahab seeks prophetic counsel",
+    "sequence": 1,
+    "description": "The narrative presents Ahab weighing prophetic speech in relation to a proposed campaign at Ramoth-gilead.",
+    "actorIds": [
+      "actor-ahab",
+      "actor-court-prophets",
+      "actor-royal-counsel-system"
+    ],
+    "mechanismIds": [
+      "mech-selective-reception",
+      "mech-court-consultation",
+      "mech-prophetic-mediation"
+    ],
+    "mediumIds": [
+      "med-royal-court",
+      "med-prophetic-mouths"
+    ],
+    "derivedFrom": [
+      "pass-ahab-preference"
+    ],
+    "outcomes": [
+      "favorable and adverse prophetic messages are distinguished in the counsel scene"
+    ]
+  },
+  {
+    "eventId": "event-council-vision-reported",
+    "caseId": "1-kings-22-lying-spirit",
+    "label": "Micaiah reports the council vision",
+    "sequence": 2,
+    "description": "Micaiah narrates a heavenly council scene in which a spirit proposes mediated deception.",
+    "actorIds": [
+      "actor-micaiah",
+      "actor-yhwh",
+      "actor-lying-spirit"
+    ],
+    "mechanismIds": [
+      "mech-prophetic-mediation",
+      "mech-narrated-spiritual-deception",
+      "mech-divine-judicial-permission"
+    ],
+    "mediumIds": [
+      "med-micaiah-vision-report",
+      "med-scriptural-narrative"
+    ],
+    "derivedFrom": [
+      "pass-council-question",
+      "pass-spirit-proposal"
+    ],
+    "outcomes": [
+      "the episode frames deception, prophetic speech, royal responsibility, and divine judgment as layered questions"
+    ]
+  }
+]

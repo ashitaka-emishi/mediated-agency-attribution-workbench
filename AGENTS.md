@@ -34,8 +34,7 @@ Treat `sdlc`, `sldc`, and `$sdlc-workflow` as workflow invocations.
 - Stable IDs use lowercase kebab-case.
 - Dates use ISO 8601.
 - Canonical records live under `data/cases`, `data/ontology`, and `data/traditions`.
-- Generated records live under `data/generated`, `site/generated`, and
-  `integration/ppw/generated`.
+- Generated records live under `data/generated` and `site/generated`.
 - Schema changes require an ADR under `docs/decisions/`.
 
 ## Commit attribution

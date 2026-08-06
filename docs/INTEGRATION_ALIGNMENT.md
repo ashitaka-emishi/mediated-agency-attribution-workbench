@@ -1,26 +1,18 @@
-# Alignment With Existing Research Platforms
+# Tooling Pattern Alignment
 
-## Political Pathology Workbench
+MAAW is not related to political-pathology work. It does not sit beside,
+coordinate with, or feed political-pathology repositories.
 
-MAAW inherits the coordination-repository pattern, theory and findings as data,
-human-edited case folders, traceability, evidence modules, Node validation,
-Python analysis, Quarto publication, and explicit promotion boundaries.
+The project does reuse a general research-workbench pattern:
 
-## Lincoln Metaphor Analysis
+- one canonical knowledge base;
+- human-edited JSON research objects;
+- JSON Schema contracts;
+- deterministic validation and generated indexes;
+- Python analysis helpers;
+- Quarto publication;
+- issue-directed development and human review gates.
 
-MAAW inherits Node 20 pipeline commands, source provenance, evidence chains,
-model comparison, adjudication queues, reliability studies, and controlled
-analysis.
-
-## Sacrifice Law Workbench
-
-MAAW inherits comparative cases, explicit research design, Python cross-case
-synthesis, traceability reports, and human/model reliability workflows.
-
-## John Brown Metaphor Analysis
-
-MAAW inherits process-event and intervention-log thinking, human-decision
-records, field contracts, goal files, and scholarly agent instructions.
-
-MAAW adds a bounded context for agency attribution and exports only reviewed
-candidates rather than duplicating PPW's promoted-claim layer.
+Any future external export or integration must be proposed in a separate issue,
+identify the receiving system, document the ownership boundary, and pass human
+approval before implementation.

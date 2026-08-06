@@ -1,27 +1,30 @@
 # Research Problem
 
-## Primary problem statement
+## Primary Problem Statement
 
-Existing scholarship offers separate accounts of spiritual powers, emergent
-realities, collective intentionality, institutional agency, and recursive
-structure–agency relations, but lacks an integrated method for distinguishing
-and relating them in concrete cases. This project seeks to develop criteria for
-determining when an observed pattern should be attributed to a human person, a
-psychological mechanism, a collective agent, an institution, a symbolic order,
-a nonhuman spiritual intelligence, or a layered interaction among them. Its
-purpose is neither to reduce spiritual agency to social mechanisms nor to invoke
-spiritual agents where psychological and institutional causation is sufficient,
-but to establish a disciplined model of mediated and multilevel agency.
+Biblical texts speak of agents, powers, spirits, rulers, authorities, wisdom,
+folly, nations, institutions, and symbolic orders in ways that resist simple
+classification. Existing scholarship often treats these levels separately:
+textual exegesis, biblical theology, historical context, psychology, social
+ontology, institutional analysis, and accounts of nonhuman spiritual agency.
+This project seeks a disciplined method for relating those levels without
+collapsing them into one another.
 
-## Primary research question
+MAAW is therefore a biblical-theological research workbench first. Its
+interdisciplinary tools serve the biblical question: how should agency,
+mediation, responsibility, and spiritual powers be interpreted in Scripture and
+in carefully bounded applications of scriptural interpretation?
 
-What conceptual and evidentiary criteria can distinguish personal spiritual
-agency, human psychological agency, emergent collective agency, institutional
-causation, symbolic mediation, and rhetorical personification when interpreting
-biblical powers and their proposed historical embodiments?
+## Primary Research Question
 
-## Operational question
+What conceptual, textual, theological, historical, psychological, social, and
+institutional criteria can distinguish personal spiritual agency, human agency,
+collective agency, institutional causation, symbolic mediation, and rhetorical
+personification when interpreting biblical powers and their proposed
+embodiments?
 
-Given an observable pattern of action, which agents, mechanisms, media, and
-levels of organization are necessary or sufficient to explain it, and what
-remains underdetermined?
+## Operational Question
+
+Given a biblical passage or bounded interpretive case, which agents,
+mechanisms, media, and levels of organization are necessary or sufficient to
+explain the observed pattern, and what remains underdetermined?

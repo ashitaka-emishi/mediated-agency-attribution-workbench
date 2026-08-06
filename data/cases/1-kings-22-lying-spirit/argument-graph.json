@@ -1,0 +1,97 @@
+{
+  "caseId": "1-kings-22-lying-spirit",
+  "nodes": [
+    {
+      "nodeId": "arg-ahab-preference",
+      "nodeType": "observation",
+      "text": "Ahab distinguishes favorable prophecy from Micaiah's adverse prophecy.",
+      "recordRef": "obs-ahab-selective-reception"
+    },
+    {
+      "nodeId": "arg-council-scene",
+      "nodeType": "observation",
+      "text": "The narrative depicts a heavenly council scene.",
+      "recordRef": "obs-council-scene"
+    },
+    {
+      "nodeId": "arg-spirit-proposal",
+      "nodeType": "observation",
+      "text": "The spirit proposes deceptive mediation through prophetic mouths.",
+      "recordRef": "obs-spirit-speech-medium"
+    },
+    {
+      "nodeId": "arg-human",
+      "nodeType": "hypothesis",
+      "text": "Ahab's selective agency is necessary for interpreting the episode.",
+      "recordRef": "hyp-ahab-selective-agency"
+    },
+    {
+      "nodeId": "arg-prophetic-medium",
+      "nodeType": "hypothesis",
+      "text": "Prophetic speech mediates warning, authorization, and deception.",
+      "recordRef": "hyp-prophetic-symbolic-mediation"
+    },
+    {
+      "nodeId": "arg-spiritual",
+      "nodeType": "hypothesis",
+      "text": "The lying spirit is a textually proposed spiritual agent whose attribution remains human-gated.",
+      "recordRef": "hyp-lying-spirit-mediation"
+    },
+    {
+      "nodeId": "arg-divine",
+      "nodeType": "hypothesis",
+      "text": "Divine judicial agency is distinguishable from the spirit's mediation and Ahab's responsibility.",
+      "recordRef": "hyp-divine-judicial-agency"
+    },
+    {
+      "nodeId": "arg-restraint",
+      "nodeType": "defeater",
+      "text": "The pilot prohibits transferring this spiritual attribution pattern to other cases without independent argument.",
+      "recordRef": "obs-pilot-restraint"
+    }
+  ],
+  "edges": [
+    {
+      "edgeId": "edge-1",
+      "from": "arg-ahab-preference",
+      "to": "arg-human",
+      "relation": "supports"
+    },
+    {
+      "edgeId": "edge-2",
+      "from": "arg-spirit-proposal",
+      "to": "arg-spiritual",
+      "relation": "supports"
+    },
+    {
+      "edgeId": "edge-3",
+      "from": "arg-council-scene",
+      "to": "arg-divine",
+      "relation": "supports"
+    },
+    {
+      "edgeId": "edge-4",
+      "from": "arg-prophetic-medium",
+      "to": "arg-spiritual",
+      "relation": "qualifies"
+    },
+    {
+      "edgeId": "edge-5",
+      "from": "arg-human",
+      "to": "arg-spiritual",
+      "relation": "qualifies"
+    },
+    {
+      "edgeId": "edge-6",
+      "from": "arg-restraint",
+      "to": "arg-spiritual",
+      "relation": "qualifies"
+    },
+    {
+      "edgeId": "edge-7",
+      "from": "arg-divine",
+      "to": "arg-spiritual",
+      "relation": "qualifies"
+    }
+  ]
+}
