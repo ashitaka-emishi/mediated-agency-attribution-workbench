@@ -280,3 +280,222 @@ lower-level explanations first. Spiritual-attribution hypotheses must remain
 proposed, must assess lower-level explanations, must identify mechanisms and
 media, and must require human review before approval, promotion, export, or
 publication.
+
+## Examples From The 1 Kings 22 Pilot
+
+These examples illustrate how to use the categories and criteria. They do not
+add canonical case data and do not approve any spiritual attribution.
+
+### Core-Category Examples
+
+Positive agent example: `actor-ahab` is coded as a human-person agent because
+the narrative names Ahab and represents him as speaking, preferring, receiving
+counsel, and making a royal decision.
+
+Negative agent example: `med-prophetic-mouths` is not coded as an agent merely
+because the text names the "mouth" as the medium of speech. The mouth is a
+medium unless a separate agency claim identifies the speaker or another acting
+subject.
+
+Category-error agent example: "Deception acted in the story" collapses a
+manifestation or mechanism into an agent. The coder should instead ask whether
+the proposed agent is Ahab, the court prophets, the lying spirit, YHWH, a
+symbolic pattern, or another defined actor.
+
+Positive agency-claim example: `hyp-ahab-selective-agency` claims that Ahab
+exercises responsible human agency by preferring favorable counsel and
+resisting adverse prophecy. This is an attribution hypothesis, not an
+observation.
+
+Negative agency-claim example: "The passage says Ahab dislikes Micaiah's
+prophecy" is a textual observation. It becomes an agency claim only when a
+hypothesis states what Ahab does with that preference.
+
+Category-error agency-claim example: "Ahab's desire proves the lying spirit
+controlled him" skips over mechanism, alternatives, evidence, and human review.
+
+Positive cause example: a hypothesis may propose that selective reception of
+counsel contributes to Ahab's decision environment. The causal relation belongs
+in events, mechanisms, and hypotheses, not in the observation text.
+
+Negative cause example: an observation that records a council scene does not by
+itself establish what caused the later royal action.
+
+Category-error cause example: "The episode is morally severe, therefore a
+nonhuman spiritual agent caused it" treats moral severity as causal evidence.
+MAAW explicitly prohibits that inference.
+
+Positive mechanism example: `mech-prophetic-mediation` is a mechanism because
+it describes how speech presented as prophecy mediates warning,
+authorization, or deception.
+
+Negative mechanism example: `actor-lying-spirit` is not a mechanism. If the
+spirit is proposed as acting, the mechanism still needs to explain how the
+agency is mediated.
+
+Category-error mechanism example: "YHWH is the mechanism" collapses agent and
+mechanism. A valid hypothesis must distinguish the proposed divine agent from
+the proposed process, such as judicial permission or prophetic mediation.
+
+Positive medium example: `med-micaiah-vision-report` is a medium because the
+vision report is the textual-prophetic vehicle through which the council scene
+is disclosed.
+
+Negative medium example: Ahab's selective reception is not a medium; it is a
+psychological mechanism or agency-relevant pattern.
+
+Category-error medium example: "The royal court caused the deception because it
+is the medium" confuses a setting or medium with a causal explanation.
+
+Positive manifestation example: "deception is linked to a spirit's proposed
+role in the mouths of prophets" is a manifestation in
+`hyp-lying-spirit-mediation` because it states the inspectable result the
+hypothesis is trying to explain.
+
+Negative manifestation example: "the lying spirit" is not a manifestation; it
+is the proposed agent in a spiritual-attribution hypothesis.
+
+Category-error manifestation example: "The manifestation proves its own agent"
+uses the outcome as self-authenticating evidence. A manifestation must be
+linked to evidence, alternatives, mechanisms, and falsifiers.
+
+Positive interpretation example: a finding may state that the episode is
+canonically arguable as layered agency involving divine judgment, creaturely
+mediation, prophetic speech, and human responsibility.
+
+Negative interpretation example: a passage excerpt is not an interpretation
+until a reader explains its meaning within a textual, theological, historical,
+or analytical frame.
+
+Category-error interpretation example: "Because this reading is theologically
+coherent, the spiritual hypothesis is empirically discriminated" collapses
+theological interpretation into empirical discrimination.
+
+### Agency-Criteria Examples
+
+Positive identity example: `actor-lying-spirit` has bounded identity because
+the narrative identifies a spirit making a specific proposal in the council
+scene.
+
+Negative identity example: "the spirit behind every later deceptive institution"
+is not identified by the 1 Kings 22 pilot. That would require a separate case
+and independent argument.
+
+Category-error identity example: mapping "spirit" directly to a universal
+demonological class without interpretive argument bypasses the ontology and
+tradition-lens review.
+
+Positive persistence example: Ahab's identity persists across the counsel
+scene because the narrative names him and tracks his speech and royal role.
+
+Negative persistence example: the lying spirit's identity is bounded to the
+reported vision unless additional textual or tradition evidence is added.
+
+Category-error persistence example: repeated deception in unrelated cases does
+not prove the same spiritual agent persists across those cases.
+
+Positive directionality example: Ahab's selective reception can be coded as
+moving toward favorable counsel if the observation set shows adverse counsel is
+resisted and favorable counsel is preferred.
+
+Negative directionality example: the presence of adverse consequences does not
+by itself show that a proposed agent aimed at those consequences.
+
+Category-error directionality example: treating harm as proof of demonic
+direction collapses moral evaluation into agency attribution.
+
+Positive selectivity example: Ahab's statement that Micaiah does not prophesy
+good concerning him supports coding selectivity in reception of counsel.
+
+Negative selectivity example: a repeated pattern of speech is not selective
+unless alternatives and differential response are identified.
+
+Category-error selectivity example: coding any repeated institutional habit as
+choice without evidence turns regularity into agency by assertion.
+
+Positive responsiveness example: a later coding pass could mark responsiveness
+if an actor changes speech or strategy after resistance or correction appears
+in the evidence.
+
+Negative responsiveness example: the current pilot should not assume the lying
+spirit adapts beyond the bounded council scene unless the text or tradition
+argument supplies that evidence.
+
+Category-error responsiveness example: requiring adaptive behavior as a
+condition for every spiritual attribution would overrule the bounded text
+rather than code it.
+
+Positive counterfactual-dependence example: a coder may ask whether the
+reported deception would be explained by Ahab's preference and court dynamics
+without the narrated spirit, and what the spiritual hypothesis adds.
+
+Negative counterfactual-dependence example: no coder should assign a numeric
+probability that the lying spirit caused the event.
+
+Category-error counterfactual-dependence example: "ordinary mechanisms can
+explain the court scene, therefore spiritual mediation is impossible" violates
+non-reductive mediation.
+
+Positive explanatory-necessity example: Ahab's human agency may be coded
+necessary for the royal decision in the bounded narrative, while the lying
+spirit hypothesis may be coded compatible if it adds theological coherence
+without empirical discrimination.
+
+Negative explanatory-necessity example: a hypothesis is not necessary merely
+because it is tradition-coherent.
+
+Category-error explanatory-necessity example: coding the spiritual hypothesis
+as necessary before assessing Ahab's agency, court consultation, and prophetic
+symbolic mediation violates explanatory restraint.
+
+Positive independent-evidence example: the phrase about a spirit proposing to
+be a lying spirit in the prophets' mouths is independent evidence for the
+textual claim that the narrative proposes a spirit, though not automatic
+approval of doctrine or transfer to modern cases.
+
+Negative independent-evidence example: the fact that the episode includes
+deception is not independent evidence for a spiritual agent; it is part of the
+manifestation to be explained.
+
+Category-error independent-evidence example: treating moral severity, royal
+failure, or deception itself as independent proof of spiritual agency is
+prohibited.
+
+Positive alternatives example: a valid spiritual-attribution hypothesis keeps
+Ahab's agency, court consultation, and prophetic symbolic mediation live as
+lower-level explanations.
+
+Negative alternatives example: a coding pass is incomplete if it lists the
+lying spirit hypothesis but does not assess human and textual alternatives.
+
+Category-error alternatives example: deleting ordinary explanations because
+they feel less theological collapses interdisciplinary evidence into doctrinal
+preference.
+
+Positive falsifiability example: `hyp-lying-spirit-mediation` can be weakened
+by a theological or literary reading that prohibits treating the spirit as a
+distinct agent even within the narrative world.
+
+Negative falsifiability example: "nothing could change this conclusion" is not
+a usable falsifier.
+
+Category-error falsifiability example: treating theological importance as
+immunity from counterargument turns a hypothesis into an unreviewable
+assertion.
+
+### Outcome Examples
+
+Use `underdetermined` when the pilot evidence does not discriminate between
+live alternatives. For example, court consultation may remain underdetermined
+if the current evidence shows a royal counsel setting but not enough to specify
+the independent agency of the court system.
+
+Use `compatible-but-unnecessary` when a proposed attribution is coherent but
+does not add necessary explanatory work. For example, a spiritual reading might
+be compatible with a tradition while remaining unnecessary to explain a
+strictly textual observation about Ahab's preference.
+
+Use `category-error` when a claim collapses categories. For example, "the
+mouths of the prophets are the lying spirit" confuses medium and proposed
+agent unless a separate agency claim and interpretive argument establish that
+identification.

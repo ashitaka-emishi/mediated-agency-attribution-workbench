@@ -19,7 +19,8 @@ proposed agent
 The core codebook definitions live in `docs/CODEBOOK.md`. The codebook
 distinguishes agent, agency claim, cause, mechanism, medium, manifestation,
 and interpretation, then gives agency-criteria coding rules for moving from
-observations to attribution hypotheses.
+observations to attribution hypotheses. Its examples use the 1 Kings 22 pilot
+to show positive, negative, and category-error coding.
 
 ## Sequence
 
