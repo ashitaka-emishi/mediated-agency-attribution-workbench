@@ -26,3 +26,11 @@ Textual observations, causal hypotheses, theological interpretation, and moral
 evaluation remain distinct. Spiritual attributions require human review and
 must not be inferred solely from harm, deception, severity, or resemblance to
 another passage.
+
+## Coding rules
+
+Agency criteria are coded after observations are recorded. Identity,
+persistence, directionality, selectivity, responsiveness, counterfactual
+dependence, necessity, independent evidence, alternatives, and falsifiability
+are evaluated against rival hypotheses before less observable agents are
+invoked.

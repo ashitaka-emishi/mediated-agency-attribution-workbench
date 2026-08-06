@@ -18,7 +18,8 @@ proposed agent
 
 The core codebook definitions live in `docs/CODEBOOK.md`. The codebook
 distinguishes agent, agency claim, cause, mechanism, medium, manifestation,
-and interpretation before coding rules or examples are added.
+and interpretation, then gives agency-criteria coding rules for moving from
+observations to attribution hypotheses.
 
 ## Sequence
 
