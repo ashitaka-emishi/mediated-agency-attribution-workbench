@@ -1,50 +1,56 @@
 # Mediated Agency Attribution Workbench
 
-**MAAW** is a traceable research platform for comparing agency attributions
-across human, psychological, collective, institutional, symbolic, technical,
-emergent, and nonhuman spiritual levels.
+**MAAW** is a traceable biblical-theological research environment for comparing
+agency attributions across human, psychological, collective, institutional,
+symbolic, historical, textual, and nonhuman spiritual levels.
 
 > Status: research scaffold. Data, categories, and findings remain provisional
 > until they pass explicit review and adjudication gates.
 
-## Problem statement
+## Problem Statement
 
-> Existing scholarship offers separate accounts of spiritual powers, emergent
-> realities, collective intentionality, institutional agency, and recursive
-> structure–agency relations, but lacks an integrated method for distinguishing
-> and relating them in concrete cases. This project seeks to develop criteria for
-> determining when an observed pattern should be attributed to a human person, a
-> psychological mechanism, a collective agent, an institution, a symbolic order,
-> a nonhuman spiritual intelligence, or a layered interaction among them. Its
-> purpose is neither to reduce spiritual agency to social mechanisms nor to invoke
-> spiritual agents where psychological and institutional causation is sufficient,
-> but to establish a disciplined model of mediated and multilevel agency.
+Biblical texts speak of agents, powers, spirits, rulers, authorities, wisdom,
+folly, nations, institutions, and symbolic orders in ways that resist simple
+classification. MAAW develops a disciplined method for relating those levels
+without collapsing textual, theological, historical, psychological, social,
+institutional, symbolic, and spiritual claims into one another.
 
-## Repository role
+The project is a biblical-theological inquiry first. Interdisciplinary tools
+serve the biblical question: how should agency, mediation, responsibility, and
+spiritual powers be interpreted in Scripture and in carefully bounded
+applications of scriptural interpretation?
 
-MAAW is designed to sit beside:
+## Repository Role
 
-- `political-pathology-workbench`: parent coordination and promoted findings
-- `lincoln-metaphor-analysis`: deep-case corpus and rhetoric evidence
-- `sacrifice-law-workbench`: comparative sacrifice-law research
-- `john-brown-metaphor-analysis`: deep-case process and intervention evidence
+MAAW uses tooling patterns common to the surrounding research workbench style:
+canonical JSON records, schema contracts, validation, generated indexes, human
+review gates, Python analysis helpers, and Quarto publication.
 
-MAAW owns agency-attribution hypotheses, mechanisms, media, argument graphs,
-alternative explanations, and attribution adjudication. It exports only
-human-reviewed candidates to the Political Pathology Workbench.
+MAAW is not related to political-pathology work. It does not sit beside,
+coordinate with, or feed political-pathology repositories. Any future external
+integration must be approved and scoped in a separate issue.
 
-## Governing principles
+## Biblical Seed Cases
+
+- **1 Kings 22**: the lying spirit, Ahab, prophetic mediation, royal decision-making;
+- **Job 1-2**: the satan, divine council, suffering, secondary causes, permission, and agency;
+- **Daniel 10**: prince of Persia/Greece, angelic conflict, imperial history, delayed mediation;
+- **Mark 5 / Synoptic Gerasene demoniac**: demons, embodiment, social location, liberation;
+- **Ephesians 6 / Pauline powers**: rulers, authorities, cosmic powers, armor, and discernment;
+- **Revelation 13 / Beast and Babylon**: empire, idolatry, symbolic agency, worship, and coercion.
+
+## Governing Principles
 
 1. Observations are easier to record than agency claims.
 2. Agent, agency, mechanism, medium, manifestation, and interpretation remain distinct.
-3. Causal attribution remains separate from moral or Christological evaluation.
-4. Lower-level explanations must be assessed before a less observable agent is invoked.
+3. Textual, causal, and moral/theological evaluation remain distinct.
+4. More observable explanations must be assessed before a less observable agent is invoked.
 5. A complete lower-level mechanism does not by itself disprove spiritual mediation.
 6. `underdetermined` and `compatible-but-unnecessary` are valid results.
 7. AI may propose and compare hypotheses; it may not approve spiritual attribution.
 8. Generated artifacts never become canonical merely because they were generated.
 
-## Quick start
+## Quick Start
 
 Requirements: Node.js 20+, Python 3.11+, and Quarto for site rendering.
 
@@ -64,37 +70,39 @@ npm run case:new -- my-case-id "My Case Title"
 
 Open `MAAW.code-workspace` in VS Code.
 
-## Canonical flow
+## Canonical Flow
 
 ```text
 Source -> Passage -> Observation -> Event/Actor/Mechanism/Medium
        -> Attribution Hypothesis -> Argument Graph -> Finding
-       -> Human Review -> PPW Export or Publication
+       -> Human Review -> Publication or Explicitly Scoped External Export
 ```
 
-## Repository map
+## Repository Map
 
-- `maaw.project.json` — machine-readable charter
-- `schemas/` — JSON Schema contracts
-- `data/ontology/` — ontology and controlled vocabulary
-- `data/traditions/` — interpretive lenses
-- `data/cases/` — canonical case records
-- `data/generated/` — generated indexes
-- `integration/ppw/` — PPW evidence-module boundary
-- `src-js/` — validation and generation tooling
-- `src-py/` — analytical Python package
-- `tests/`, `test-py/` — executable tests
-- `site/` — Quarto publication project
-- `.agents/`, `AGENTS.md` — Codex workflow instructions
+- `maaw.project.json` - machine-readable charter
+- `schemas/` - JSON Schema contracts
+- `data/ontology/` - ontology and controlled vocabulary
+- `data/traditions/` - interpretive lenses
+- `data/cases/` - canonical case records
+- `data/generated/` - generated indexes
+- `src-js/` - validation and generation tooling
+- `src-py/` - analytical Python package
+- `tests/`, `test-py/` - executable tests
+- `site/` - Quarto publication project
+- `.agents/`, `AGENTS.md` - Codex workflow instructions
 
-## First pilot
+## First Pilot
 
-The included pilot is **institutional self-preservation through sacrificial
-escalation**:
+The included pilot is **the lying spirit before Ahab** from **1 Kings 22**:
 
-> When a political institution treats prior deaths as an obligation to continue
-> a destructive course, which forms of agency are necessary to explain the
-> resulting behavior?
+> In 1 Kings 22, how should agency be attributed across YHWH's judgment, the
+> spirit's proposal, prophetic mediation, Ahab's desire, and royal
+> decision-making?
+
+The pilot compares Ahab's selective human agency, royal court consultation,
+prophetic symbolic mediation, the lying spirit's narrated mediation, and
+divine judicial agency. Its finding remains provisional and private.
 
 ## License
 

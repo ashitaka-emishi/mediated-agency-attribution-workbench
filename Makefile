@@ -1,4 +1,4 @@
-.PHONY: validate test build generate summary site preview ppw-export clean
+.PHONY: validate test build generate summary site preview clean
 
 validate:
 	npm run validate
@@ -22,8 +22,5 @@ site:
 preview:
 	npm run site:preview
 
-ppw-export:
-	npm run export:ppw
-
 clean:
-	rm -rf data/generated/*.json site/generated/*.json integration/ppw/generated
+	rm -rf data/generated/*.json site/generated/*.json

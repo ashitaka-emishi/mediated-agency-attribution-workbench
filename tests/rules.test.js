@@ -17,7 +17,7 @@ test("observation records cannot contain causal spiritual attribution", () => {
   const [bundle] = loadAllCases(project.paths.cases);
   const clone = structuredClone(bundle);
   clone.observations[0].observation =
-    "The institution was controlled by a demonic agent.";
+    "The court was controlled by a demonic agent.";
   const issues = validateCaseBundle(clone);
   assert.ok(issues.some((item) => item.code === "observation-attribution"));
 });
@@ -27,9 +27,10 @@ test("spiritual attribution requires lower-level assessment and human gate", () 
   const [bundle] = loadAllCases(project.paths.cases);
   const clone = structuredClone(bundle);
   const spiritual = clone.hypotheses.find(
-    (item) => item.hypothesisId === "hyp-layered-spiritual"
+    (item) => item.hypothesisId === "hyp-lying-spirit-mediation"
   );
   spiritual.lowerLevelExplanationsAssessed = [];
+  spiritual.independentEvidence = [];
   spiritual.humanReviewRequired = false;
   spiritual.status = "supported";
   const codes = new Set(

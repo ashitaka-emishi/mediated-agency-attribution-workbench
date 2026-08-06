@@ -11,9 +11,9 @@ flowchart LR
   H --> A[Argument graph]
   A --> F[Finding]
   F --> R[Human review]
-  R --> X[PPW export / publication]
+  R --> X[Publication / scoped export]
 ```
 
 Canonical records are human-edited JSON. Node.js validates and generates
 indexes. Python supports comparative analysis. Quarto publishes selected,
-reviewed derivatives.
+reviewed derivatives. External exports require a separately scoped issue.

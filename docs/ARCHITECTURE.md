@@ -1,7 +1,6 @@
 # System Architecture
 
-MAAW follows the same broad architecture as the Political Pathology Workbench
-and related repositories:
+MAAW uses a reproducible research-workbench architecture:
 
 - one canonical knowledge base;
 - human-edited JSON research objects;
@@ -23,7 +22,8 @@ falsifiers, necessity, empirical status, and theological status.
 
 **Argumentation:** support, contradiction, qualification, defeat, and alternatives.
 
-**Discernment:** moral and Christological evaluation, separated from causal inference.
+**Discernment:** moral and theological evaluation, separated from textual and
+causal inference.
 
 **Governance:** human review, model review, adjudication, promotion, export,
 and publication.

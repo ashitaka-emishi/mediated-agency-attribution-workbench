@@ -1,0 +1,34 @@
+[
+  {
+    "passageId": "pass-council-question",
+    "sourceId": "src-kjv-1-kings-22",
+    "locator": "1 Kings 22:19-20",
+    "text": "I saw the LORD sitting on his throne, and all the host of heaven standing by him",
+    "textStatus": "verified",
+    "notes": "Short public-domain excerpt used as a pilot anchor for the council scene."
+  },
+  {
+    "passageId": "pass-spirit-proposal",
+    "sourceId": "src-kjv-1-kings-22",
+    "locator": "1 Kings 22:21-22",
+    "text": "I will go forth, and I will be a lying spirit in the mouth of all his prophets",
+    "textStatus": "verified",
+    "notes": "Short public-domain excerpt used as a pilot anchor for proposed spiritual mediation through prophetic speech."
+  },
+  {
+    "passageId": "pass-ahab-preference",
+    "sourceId": "src-kjv-1-kings-22",
+    "locator": "1 Kings 22:8",
+    "text": "I hate him; for he doth not prophesy good concerning me, but evil",
+    "textStatus": "verified",
+    "notes": "Short public-domain excerpt used as a pilot anchor for royal preference and resistance to correction."
+  },
+  {
+    "passageId": "pass-pilot-scope",
+    "sourceId": "src-methodological-pilot-note",
+    "locator": "scope statement",
+    "text": "The pilot tests biblical agency attribution criteria and does not treat narrative severity, deception, or royal failure as automatic proof of a specific spiritual agent beyond the textual claim.",
+    "textStatus": "verified",
+    "notes": ""
+  }
+]

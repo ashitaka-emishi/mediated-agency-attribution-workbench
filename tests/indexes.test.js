@@ -10,16 +10,16 @@ test("indexes preserve case and hypothesis identifiers", () => {
   const indexes = buildIndexes(bundles);
   assert.equal(
     indexes.caseIndex[0].caseId,
-    "institutional-sacrificial-escalation"
+    "1-kings-22-lying-spirit"
   );
   assert.ok(
     indexes.hypothesisIndex.some(
-      (item) => item.hypothesisId === "hyp-layered-spiritual"
+      (item) => item.hypothesisId === "hyp-lying-spirit-mediation"
     )
   );
   assert.ok(
     indexes.traceabilityIndex.some(
-      (item) => item.findingId === "finding-pilot-attribution"
+      (item) => item.findingId === "finding-biblical-pilot-attribution"
     )
   );
 });

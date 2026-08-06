@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/case.schema.json",
+  "caseId": "1-kings-22-lying-spirit",
+  "title": "The Lying Spirit Before Ahab",
+  "researchQuestion": "In 1 Kings 22, how should agency be attributed across YHWH's judgment, the spirit's proposal, prophetic mediation, Ahab's desire, and royal decision-making?",
+  "status": "scaffold",
+  "scope": "Biblical pilot case focused on a bounded narrative unit rather than a completed doctrinal or historical judgment.",
+  "timePeriod": {
+    "textualSetting": "divided monarchy",
+    "canonicalLocation": "1 Kings 22"
+  },
+  "geography": [
+    "Samaria",
+    "Ramoth-gilead",
+    "heavenly council scene"
+  ],
+  "traditionLensIds": [
+    "heiser-supernatural-worldview",
+    "wink-powers",
+    "berkhof-created-fallen-redeemable",
+    "critical-realism",
+    "social-ontology"
+  ],
+  "createdBy": "human",
+  "reviewStatus": "draft",
+  "publicationStatus": "private-note",
+  "notes": "Replacement pilot selected in issue #8 to center the project on biblical agency inquiry."
+}

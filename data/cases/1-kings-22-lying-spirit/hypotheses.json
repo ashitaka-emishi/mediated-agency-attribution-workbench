@@ -1,0 +1,275 @@
+[
+  {
+    "hypothesisId": "hyp-ahab-selective-agency",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Ahab's selective human agency",
+    "proposedAgentIds": [
+      "actor-ahab"
+    ],
+    "agencyClaim": "Ahab exercises responsible human agency by preferring favorable counsel and resisting adverse prophecy.",
+    "agencyType": "intentional",
+    "mechanismIds": [
+      "mech-selective-reception"
+    ],
+    "mediumIds": [
+      "med-royal-court"
+    ],
+    "manifestations": [
+      "favorable prophecy is desired while Micaiah's adverse speech is rejected"
+    ],
+    "evidenceSupport": [
+      "obs-ahab-selective-reception",
+      "event-ahab-seeks-counsel"
+    ],
+    "evidenceAgainst": [],
+    "alternativeHypothesisIds": [
+      "hyp-court-prophetic-system",
+      "hyp-prophetic-symbolic-mediation",
+      "hyp-lying-spirit-mediation",
+      "hyp-divine-judicial-agency"
+    ],
+    "assumptions": [
+      "the narrative presents Ahab's speech as meaningful for interpreting his agency"
+    ],
+    "falsifiers": [
+      "a reading that shows Ahab's stated preference is incidental rather than interpretively significant"
+    ],
+    "lowerLevelExplanationsAssessed": [],
+    "independentEvidence": [
+      "pass-ahab-preference"
+    ],
+    "status": "plausible",
+    "explanatoryNecessity": "necessary",
+    "empiricalStatus": "partially-discriminated",
+    "theologicalStatus": "not-applicable",
+    "humanReviewRequired": false,
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": ""
+  },
+  {
+    "hypothesisId": "hyp-court-prophetic-system",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Royal court consultation system",
+    "proposedAgentIds": [
+      "actor-royal-counsel-system",
+      "actor-court-prophets"
+    ],
+    "agencyClaim": "The courtly counsel system contributes to the decision environment by organizing prophetic speech around royal desire and public deliberation.",
+    "agencyType": "institutional",
+    "mechanismIds": [
+      "mech-court-consultation",
+      "mech-prophetic-mediation"
+    ],
+    "mediumIds": [
+      "med-royal-court",
+      "med-prophetic-mouths"
+    ],
+    "manifestations": [
+      "prophetic messages are performed in a royal setting before a military decision"
+    ],
+    "evidenceSupport": [
+      "obs-ahab-selective-reception",
+      "event-ahab-seeks-counsel"
+    ],
+    "evidenceAgainst": [],
+    "alternativeHypothesisIds": [
+      "hyp-ahab-selective-agency",
+      "hyp-prophetic-symbolic-mediation",
+      "hyp-lying-spirit-mediation"
+    ],
+    "assumptions": [
+      "the narrative's court setting is relevant to the production and reception of prophecy"
+    ],
+    "falsifiers": [
+      "evidence that the court setting has no interpretive role beyond incidental location"
+    ],
+    "lowerLevelExplanationsAssessed": [
+      "hyp-ahab-selective-agency"
+    ],
+    "independentEvidence": [],
+    "status": "proposed",
+    "explanatoryNecessity": "contributory",
+    "empiricalStatus": "underdetermined",
+    "theologicalStatus": "not-applicable",
+    "humanReviewRequired": false,
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": ""
+  },
+  {
+    "hypothesisId": "hyp-prophetic-symbolic-mediation",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Prophetic symbolic mediation",
+    "proposedAgentIds": [
+      "actor-micaiah",
+      "actor-court-prophets"
+    ],
+    "agencyClaim": "Competing prophetic speech mediates the meaning of the royal decision by staging favorable authorization and adverse warning.",
+    "agencyType": "symbolic",
+    "mechanismIds": [
+      "mech-prophetic-mediation",
+      "mech-selective-reception"
+    ],
+    "mediumIds": [
+      "med-prophetic-mouths",
+      "med-micaiah-vision-report",
+      "med-scriptural-narrative"
+    ],
+    "manifestations": [
+      "the decision is interpreted through rival prophetic messages"
+    ],
+    "evidenceSupport": [
+      "obs-spirit-speech-medium",
+      "obs-ahab-selective-reception",
+      "event-council-vision-reported"
+    ],
+    "evidenceAgainst": [],
+    "alternativeHypothesisIds": [
+      "hyp-ahab-selective-agency",
+      "hyp-court-prophetic-system",
+      "hyp-lying-spirit-mediation",
+      "hyp-divine-judicial-agency"
+    ],
+    "assumptions": [
+      "prophetic speech functions as more than background information in the narrative"
+    ],
+    "falsifiers": [
+      "a stronger reading that the narrative is uninterested in prophetic mediation as a distinct level"
+    ],
+    "lowerLevelExplanationsAssessed": [
+      "hyp-ahab-selective-agency"
+    ],
+    "independentEvidence": [
+      "pass-spirit-proposal"
+    ],
+    "status": "plausible",
+    "explanatoryNecessity": "contributory",
+    "empiricalStatus": "partially-discriminated",
+    "theologicalStatus": "tradition-coherent",
+    "humanReviewRequired": false,
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": ""
+  },
+  {
+    "hypothesisId": "hyp-lying-spirit-mediation",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Lying spirit mediated through prophets",
+    "proposedAgentIds": [
+      "actor-lying-spirit",
+      "actor-court-prophets"
+    ],
+    "agencyClaim": "The lying spirit is proposed by the text as a nonhuman spiritual agent whose deceptive agency is mediated through prophetic speech.",
+    "agencyType": "spiritual-proposed",
+    "mechanismIds": [
+      "mech-narrated-spiritual-deception",
+      "mech-prophetic-mediation"
+    ],
+    "mediumIds": [
+      "med-prophetic-mouths",
+      "med-scriptural-narrative"
+    ],
+    "manifestations": [
+      "deception is linked to a spirit's proposed role in the mouths of prophets"
+    ],
+    "evidenceSupport": [
+      "obs-spirit-speech-medium",
+      "event-council-vision-reported"
+    ],
+    "evidenceAgainst": [
+      "obs-pilot-restraint"
+    ],
+    "alternativeHypothesisIds": [
+      "hyp-ahab-selective-agency",
+      "hyp-court-prophetic-system",
+      "hyp-prophetic-symbolic-mediation",
+      "hyp-divine-judicial-agency"
+    ],
+    "assumptions": [
+      "the council vision is relevant to agency attribution rather than merely decorative narration",
+      "a narrated spirit can be considered as a proposed nonhuman spiritual agent within a defined biblical-theological frame"
+    ],
+    "falsifiers": [
+      "a theological or literary reading that prohibits treating the spirit as a distinct agent even within the narrative world",
+      "evidence that the passage is being used to make claims outside its textual scope without warrant"
+    ],
+    "lowerLevelExplanationsAssessed": [
+      "hyp-ahab-selective-agency",
+      "hyp-court-prophetic-system",
+      "hyp-prophetic-symbolic-mediation"
+    ],
+    "independentEvidence": [
+      "pass-spirit-proposal",
+      "pass-council-question"
+    ],
+    "status": "plausible",
+    "explanatoryNecessity": "compatible",
+    "empiricalStatus": "not-empirically-testable",
+    "theologicalStatus": "canonically-argued",
+    "humanReviewRequired": true,
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": "Human review remains required before any spiritual attribution is approved or generalized."
+  },
+  {
+    "hypothesisId": "hyp-divine-judicial-agency",
+    "caseId": "1-kings-22-lying-spirit",
+    "title": "Divine judicial agency in the council scene",
+    "proposedAgentIds": [
+      "actor-yhwh"
+    ],
+    "agencyClaim": "The narrative presents YHWH's judicial agency as governing the council scene while remaining distinguishable from the spirit's proposed mediation and Ahab's responsibility.",
+    "agencyType": "spiritual-proposed",
+    "mechanismIds": [
+      "mech-divine-judicial-permission",
+      "mech-prophetic-mediation"
+    ],
+    "mediumIds": [
+      "med-micaiah-vision-report",
+      "med-scriptural-narrative"
+    ],
+    "manifestations": [
+      "the council vision frames the proposed deception within divine judgment"
+    ],
+    "evidenceSupport": [
+      "obs-council-scene",
+      "obs-spirit-speech-medium",
+      "event-council-vision-reported"
+    ],
+    "evidenceAgainst": [
+      "obs-pilot-restraint"
+    ],
+    "alternativeHypothesisIds": [
+      "hyp-ahab-selective-agency",
+      "hyp-lying-spirit-mediation",
+      "hyp-prophetic-symbolic-mediation"
+    ],
+    "assumptions": [
+      "the narrative's depiction of YHWH is germane to theological agency attribution",
+      "divine permission and creaturely agency should not be collapsed"
+    ],
+    "falsifiers": [
+      "a theological reading that treats the council scene as non-attributive imagery only",
+      "an interpretation that collapses divine agency into the spirit's agency or removes Ahab's responsibility"
+    ],
+    "lowerLevelExplanationsAssessed": [
+      "hyp-ahab-selective-agency",
+      "hyp-court-prophetic-system",
+      "hyp-prophetic-symbolic-mediation",
+      "hyp-lying-spirit-mediation"
+    ],
+    "independentEvidence": [
+      "pass-council-question",
+      "pass-spirit-proposal"
+    ],
+    "status": "plausible",
+    "explanatoryNecessity": "compatible",
+    "empiricalStatus": "not-empirically-testable",
+    "theologicalStatus": "canonically-argued",
+    "humanReviewRequired": true,
+    "createdBy": "human",
+    "reviewStatus": "draft",
+    "notes": "This hypothesis is textual-theological and does not authorize automated theological adjudication."
+  }
+]

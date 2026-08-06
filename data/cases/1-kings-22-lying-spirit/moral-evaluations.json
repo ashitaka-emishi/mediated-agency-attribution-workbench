@@ -1,0 +1,19 @@
+[
+  {
+    "evaluationId": "evaluation-biblical-pilot-discernment",
+    "caseId": "1-kings-22-lying-spirit",
+    "targetRef": "hyp-divine-judicial-agency",
+    "framework": "biblical-theological-discernment",
+    "criteria": [
+      "distinguishes divine agency from creaturely mediation",
+      "does not collapse permission into direct authorship",
+      "preserves human responsibility",
+      "does not infer spiritual agency from moral severity alone",
+      "requires tradition-aware theological review"
+    ],
+    "assessment": "Not yet assessed. The pilot separates theological discernment from causal and textual attribution.",
+    "causalInferenceProhibited": true,
+    "createdBy": "human",
+    "reviewStatus": "draft"
+  }
+]

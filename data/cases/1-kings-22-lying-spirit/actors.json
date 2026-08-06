@@ -1,0 +1,108 @@
+[
+  {
+    "actorId": "actor-ahab",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Ahab king of Israel",
+    "ontologicalClass": "human-person",
+    "description": "Narrated royal decision-maker who seeks counsel about Ramoth-gilead.",
+    "identityCriteria": [
+      "named biblical figure",
+      "royal officeholder in the narrative"
+    ],
+    "persistenceCriteria": [
+      "narrative continuity across the chapter"
+    ],
+    "status": "observed"
+  },
+  {
+    "actorId": "actor-micaiah",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Micaiah son of Imlah",
+    "ontologicalClass": "human-person",
+    "description": "Narrated prophet who discloses the heavenly council vision to Ahab.",
+    "identityCriteria": [
+      "named biblical figure",
+      "prophetic speaker in the narrative"
+    ],
+    "persistenceCriteria": [
+      "narrative continuity within the episode"
+    ],
+    "status": "observed"
+  },
+  {
+    "actorId": "actor-court-prophets",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Ahab's court prophets",
+    "ontologicalClass": "collective-actor",
+    "description": "A narrated prophetic group whose favorable counsel is contrasted with Micaiah's warning.",
+    "identityCriteria": [
+      "collective prophetic role",
+      "shared message in the narrative"
+    ],
+    "persistenceCriteria": [
+      "group identity within the counsel scene"
+    ],
+    "status": "observed"
+  },
+  {
+    "actorId": "actor-royal-counsel-system",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Royal counsel system",
+    "ontologicalClass": "institution",
+    "description": "The courtly arrangement of kingship, consultation, prophets, and war deliberation represented in the narrative.",
+    "identityCriteria": [
+      "royal office",
+      "prophetic consultation",
+      "decision procedure before battle"
+    ],
+    "persistenceCriteria": [
+      "recurrent court roles and decision practices"
+    ],
+    "status": "analytical-construct"
+  },
+  {
+    "actorId": "actor-favorable-prophecy-pattern",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "Favorable prophecy preference pattern",
+    "ontologicalClass": "psychological-pattern",
+    "description": "A proposed pattern in which desired outcomes shape receptivity to counsel.",
+    "identityCriteria": [
+      "preference for favorable speech",
+      "resistance to corrective speech"
+    ],
+    "persistenceCriteria": [
+      "requires broader textual and comparative support"
+    ],
+    "status": "proposed"
+  },
+  {
+    "actorId": "actor-lying-spirit",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "The lying spirit",
+    "ontologicalClass": "nonhuman-spiritual-agent",
+    "description": "The spirit described in Micaiah's vision as proposing deceptive mediation through prophetic speech.",
+    "identityCriteria": [
+      "identified by the narrative as a spirit",
+      "associated with a specific proposal in the council scene"
+    ],
+    "persistenceCriteria": [
+      "bounded to the reported vision unless further tradition evidence is added"
+    ],
+    "status": "tradition-claim"
+  },
+  {
+    "actorId": "actor-yhwh",
+    "caseId": "1-kings-22-lying-spirit",
+    "name": "YHWH in the council vision",
+    "ontologicalClass": "nonhuman-spiritual-agent",
+    "description": "The enthroned divine actor in Micaiah's reported council vision.",
+    "identityCriteria": [
+      "named by the narrative",
+      "enthroned speaker in the council scene"
+    ],
+    "persistenceCriteria": [
+      "canonical identity supplied by the biblical text and theological tradition"
+    ],
+    "status": "tradition-claim"
+  }
+]

@@ -17,7 +17,6 @@
     "traditions": "data/traditions",
     "cases": "data/cases",
     "generated": "data/generated",
-    "ppwIntegration": "integration/ppw",
     "site": "site"
   },
   "commands": {
@@ -26,13 +25,12 @@
     "build": "npm run build",
     "summary": "npm run summary",
     "newCase": "npm run case:new -- <case-id> \"<title>\"",
-    "ppwExport": "npm run export:ppw",
     "site": "npm run site"
   },
   "epistemicPrinciples": [
     "observations-before-attributions",
     "agent-agency-mechanism-medium-manifestation-distinction",
-    "causal-moral-separation",
+    "causal-textual-theological-separation",
     "explanatory-restraint",
     "non-reductive-mediation",
     "underdetermination-is-valid",
@@ -44,25 +42,7 @@
     "codebook-change",
     "spiritual-attribution-approval",
     "finding-promotion",
-    "ppw-export",
+    "external-export",
     "publication"
-  ],
-  "integrations": [
-    {
-      "system": "political-pathology-workbench",
-      "role": "parent-coordination-and-promoted-findings"
-    },
-    {
-      "system": "lincoln-metaphor-analysis",
-      "role": "deep-case-evidence-source"
-    },
-    {
-      "system": "sacrifice-law-workbench",
-      "role": "comparative-evidence-source"
-    },
-    {
-      "system": "john-brown-metaphor-analysis",
-      "role": "deep-case-evidence-source"
-    }
   ]
 }

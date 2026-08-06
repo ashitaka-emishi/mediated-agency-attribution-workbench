@@ -1,0 +1,23 @@
+[
+  {
+    "sourceId": "src-kjv-1-kings-22",
+    "title": "1 Kings 22",
+    "creator": "King James Version",
+    "date": "1611",
+    "sourceType": "scripture",
+    "uri": "https://www.kingjamesbibleonline.org/1-Kings-Chapter-22/",
+    "rightsStatus": "public-domain",
+    "provenanceStatus": "partial",
+    "notes": "Public-domain translation used for scaffold excerpts; source and textual witnesses require later review."
+  },
+  {
+    "sourceId": "src-methodological-pilot-note",
+    "title": "MAAW biblical pilot-case methodological note",
+    "creator": "MAAW project",
+    "date": "2026-08-05",
+    "sourceType": "other",
+    "rightsStatus": "open",
+    "provenanceStatus": "full",
+    "notes": "Project-authored framing source for the replacement pilot."
+  }
+]
